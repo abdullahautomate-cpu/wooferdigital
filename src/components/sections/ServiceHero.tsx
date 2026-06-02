@@ -28,7 +28,7 @@ export default function ServiceHero({
   showForm = true,
 }: ServiceHeroProps) {
   return (
-    <section className="bg-gradient-hero dot-pattern relative overflow-hidden pt-4 pb-16 lg:pb-20">
+    <section className="bg-navy bg-gradient-hero dot-pattern relative overflow-hidden pt-4 pb-16 lg:pb-20">
       <div className="absolute top-10 left-1/3 w-80 h-80 bg-electric/10 rounded-full blur-3xl pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

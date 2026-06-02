@@ -29,7 +29,7 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-hero dot-pattern py-16 md:py-20">
+      <section className="bg-navy bg-gradient-hero dot-pattern py-16 md:py-20">
         <div className="container-xl text-center">
           <h1 className="text-4xl md:text-5xl font-display font-bold text-white mb-4">
             Let&apos;s Talk About <GradientText>Growing Your Revenue</GradientText>

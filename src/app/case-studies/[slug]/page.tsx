@@ -48,7 +48,7 @@ export default function CaseStudyPage({ params }: Props) {
       <SchemaOrg schema={schema} />
 
       {/* Hero */}
-      <section className="bg-gradient-hero dot-pattern pt-8 pb-16">
+      <section className="bg-navy bg-gradient-hero dot-pattern pt-8 pb-16">
         <div className="container-xl">
           <div className="max-w-4xl">
             <div className="flex flex-wrap gap-3 mb-6">

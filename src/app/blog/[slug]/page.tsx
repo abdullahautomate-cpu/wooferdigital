@@ -52,7 +52,7 @@ export default function BlogPostPage({ params }: Props) {
       <BreadcrumbSchema crumbs={breadcrumbs} />
 
       {/* Hero */}
-      <section className="bg-gradient-hero dot-pattern py-12">
+      <section className="bg-navy bg-gradient-hero dot-pattern py-12">
         <div className="container-xl max-w-4xl">
           <nav className="flex items-center gap-2 text-sm text-white/50 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>

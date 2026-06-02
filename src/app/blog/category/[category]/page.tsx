@@ -34,7 +34,7 @@ export default function BlogCategoryPage({ params }: Props) {
 
   return (
     <>
-      <section className="bg-gradient-hero dot-pattern py-14">
+      <section className="bg-navy bg-gradient-hero dot-pattern py-14">
         <div className="container-xl text-center">
           <h1 className="text-4xl font-display font-bold text-white mb-3">
             <GradientText>{cat.label}</GradientText>

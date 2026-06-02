@@ -33,7 +33,7 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-hero dot-pattern py-20">
+      <section className="bg-navy bg-gradient-hero dot-pattern py-20">
         <div className="container-xl text-center">
           <div className="inline-flex items-center gap-2 bg-electric/15 border border-electric/25 text-electric-light text-sm font-medium px-4 py-1.5 rounded-full mb-6">
             Founded in 2018 · New York, NY

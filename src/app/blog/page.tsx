@@ -20,7 +20,7 @@ export default function BlogPage() {
 
   return (
     <>
-      <section className="bg-gradient-hero dot-pattern py-16">
+      <section className="bg-navy bg-gradient-hero dot-pattern py-16">
         <div className="container-xl text-center">
           <h1 className="text-4xl md:text-5xl font-display font-bold text-white mb-4">
             Media Buying & <GradientText>Performance Marketing</GradientText> Insights
