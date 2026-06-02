@@ -56,6 +56,11 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${dmSans.variable}`}>
       <head>
         <SchemaOrg schema={orgSchema} />
+        <script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="Mo1u4N07gpje8rW0FNGYYw"
+          async
+        />
       </head>
       <body className="antialiased font-sans bg-white text-navy">
         <Header />
