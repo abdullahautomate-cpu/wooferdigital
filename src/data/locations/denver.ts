@@ -1,0 +1,27 @@
+import type { LocationPage } from "@/types/location";
+export const denverData: LocationPage = {
+  slug: "denver",
+  city: "Denver",
+  state: "CO",
+  stateFullName: "Colorado",
+  metroPopulation: "2.9 million",
+  metaTitle: "Media Buying Agency Denver | Digital Advertising Agency CO",
+  metaDescription: "Expert media buying and performance marketing agency in Denver, CO. Google Ads, Meta Ads, programmatic for Denver businesses. Free Denver digital ad audit.",
+  breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Denver", href: "/locations/denver" }],
+  heroHeadline: "Denver Media Buying Agency for Growing Colorado Brands",
+  heroSubheadline: "Performance paid advertising for Denver businesses across Google, Meta, TikTok, and programmatic — driving measurable growth in Colorado's booming economy.",
+  heroCTAText: "Get Free Denver Ad Audit",
+  introText: "Denver is one of America's fastest-growing cities, with a booming tech sector, thriving outdoor lifestyle industry, strong healthcare market, and one of the highest rates of small business formation in the country. Woofer Digital serves Denver-area businesses with expert paid advertising management, capitalizing on the city's growth momentum.",
+  localMarketInsights: "Denver's outdoor and health-conscious culture creates strong demand for fitness, outdoor gear, health, and wellness advertising. Growing tech sector (Denver is among top 10 cities for tech employment growth) drives SaaS and B2B advertising. Strong craft beer and food & beverage brand ecosystem. Healthcare advertising is competitive due to UCHealth and SCL Health systems. Real estate market continues to attract relocation buyers.",
+  stats: [{ value: "2.9M", label: "Denver Metro Population" }, { value: "40+", label: "Denver Clients Served" }, { value: "43%", label: "Avg. CPL Reduction" }, { value: "3.4x", label: "Avg. Lead Volume Increase" }],
+  contentSections: [{ heading: "Denver Digital Advertising Services", body: "<p>Our Denver practice serves technology companies, healthcare systems, home services contractors, real estate agencies, outdoor and lifestyle brands, and professional services firms. Denver's unique consumer profile — highly educated, active, environmentally conscious — requires authentic brand messaging that resonates with this discerning market.</p>" }],
+  faqs: [{ question: "What industries do you serve in Denver?", answer: "We serve Denver businesses across technology, healthcare, home services, real estate, legal, outdoor/lifestyle brands, and professional services. Colorado's outdoor and wellness culture creates unique advertising opportunities for health, fitness, and lifestyle brands." }],
+  servicesOffered: [
+    { label: "Media Buying Denver", href: "/services/media-buying" },
+    { label: "Google Ads Denver", href: "/services/google-ads" },
+    { label: "Lead Generation Denver", href: "/services/lead-generation" },
+  ],
+  featuredIndustries: [{ label: "Healthcare Advertising Denver", href: "/industries/healthcare" }, { label: "SaaS Advertising Denver", href: "/industries/saas" }],
+  featuredTestimonialIds: ["t3", "t7"],
+  localBusinessSchema: { addressLocality: "Denver", addressRegion: "CO", postalCode: "80201", telephone: "[PHONE]", areaServed: ["Denver", "Aurora", "Lakewood", "Fort Collins", "Boulder", "Colorado Springs"], latitude: 39.7392, longitude: -104.9903 },
+};

@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /api/
+
+# Host
+Host: https://wooferdigital.com
+
+# Sitemaps
+Sitemap: https://wooferdigital.com/sitemap.xml

@@ -1,0 +1,28 @@
+import type { LocationPage } from "@/types/location";
+export const washingtonDcData: LocationPage = {
+  slug: "washington-dc",
+  city: "Washington",
+  state: "DC",
+  stateFullName: "District of Columbia",
+  metroPopulation: "6.4 million",
+  metaTitle: "Media Buying Agency Washington DC | Digital Advertising Agency DC",
+  metaDescription: "Expert media buying and digital advertising agency in Washington DC. Google Ads, Meta, programmatic for DC government contractors and professional services. Free audit.",
+  breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Washington DC", href: "/locations/washington-dc" }],
+  heroHeadline: "Washington DC Media Buying & Performance Advertising Agency",
+  heroSubheadline: "Expert paid advertising for Washington DC's government contractors, associations, professional services, and consumer brands across all major digital channels.",
+  heroCTAText: "Get Free DC Ad Audit",
+  introText: "Washington DC is unlike any other U.S. market — defined by its federal government presence, government contracting sector, trade associations, law firms, lobbying organizations, and a significant government-adjacent professional services economy. Advertising in DC requires understanding this unique B2B landscape while also reaching DC's highly educated, high-income consumer population.",
+  localMarketInsights: "B2B and government contractor advertising is dominant in DC — significant demand for federal contracting, consulting, and professional services advertising. Large association and non-profit sector creates unique advertising dynamics. Extremely high household income and education levels in the DC metro. Maryland and Virginia suburbs (NoVA tech corridor, MD biotech) are major advertising markets. Significant diplomatic and international community.",
+  stats: [{ value: "6.4M", label: "DC Metro Population" }, { value: "50+", label: "DC Area Clients Served" }, { value: "48%", label: "Avg. CPL Reduction" }, { value: "3.4x", label: "Avg. Lead Volume Increase" }],
+  contentSections: [{ heading: "Washington DC Digital Advertising Services", body: "<p>Our DC practice specializes in B2B and professional services advertising for the government contracting sector, law firms, consulting firms, associations, and professional services companies. We also serve consumer-focused businesses across DC, Maryland, and Northern Virginia targeting DC's affluent consumer population.</p>" }],
+  faqs: [{ question: "Do you work with government contractors in DC?", answer: "Yes. We manage B2B advertising campaigns for government contractors and professional services firms in the DC metro, with experience in compliance-sensitive industries and federal procurement-adjacent marketing." }],
+  servicesOffered: [
+    { label: "Media Buying Washington DC", href: "/services/media-buying" },
+    { label: "Google Ads Washington DC", href: "/services/google-ads" },
+    { label: "Lead Generation DC", href: "/services/lead-generation" },
+    { label: "Programmatic Advertising DC", href: "/services/programmatic-advertising" },
+  ],
+  featuredIndustries: [{ label: "Financial Services Advertising DC", href: "/industries/financial-services" }, { label: "Law Firm Advertising DC", href: "/industries/law-firm" }],
+  featuredTestimonialIds: ["t5", "t4"],
+  localBusinessSchema: { addressLocality: "Washington", addressRegion: "DC", postalCode: "20001", telephone: "[PHONE]", areaServed: ["Washington DC", "Arlington", "Alexandria", "Bethesda", "Silver Spring", "Tysons Corner"], latitude: 38.9072, longitude: -77.0369 },
+};

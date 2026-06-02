@@ -1,0 +1,28 @@
+import type { LocationPage } from "@/types/location";
+export const bostonData: LocationPage = {
+  slug: "boston",
+  city: "Boston",
+  state: "MA",
+  stateFullName: "Massachusetts",
+  metroPopulation: "4.9 million",
+  metaTitle: "Media Buying Agency Boston | Digital Advertising Agency MA",
+  metaDescription: "Premier media buying and digital advertising agency in Boston. Google Ads, Meta Ads, programmatic for Boston healthcare, biotech, and finance. Free Boston ad audit.",
+  breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Boston", href: "/locations/boston" }],
+  heroHeadline: "Boston Media Buying Agency for Healthcare, Biotech & Financial Brands",
+  heroSubheadline: "Expert paid advertising for Boston's world-class healthcare institutions, biotech companies, financial firms, and consumer brands.",
+  heroCTAText: "Get Free Boston Ad Audit",
+  introText: "Boston is America's center for healthcare, biotech, higher education, and financial services — with the highest concentration of hospitals, research institutions, and biotech companies of any U.S. city. Woofer Digital's Boston practice specializes in the unique advertising requirements of these highly regulated, trust-driven industries, delivering above-benchmark results for Massachusetts-area brands.",
+  localMarketInsights: "Boston's highly educated population requires sophisticated, credibility-first advertising approaches — claims that might work in other markets often underperform with Boston's skeptical, research-driven consumers. Healthcare and biotech advertising is the dominant industry vertical. Strong financial services sector (State Street, Fidelity, John Hancock). College-age population creates unique consumer advertising opportunities during academic calendar. High real estate market creates strong real estate advertising demand.",
+  stats: [{ value: "4.9M", label: "Boston Metro Population" }, { value: "55+", label: "Boston Clients Served" }, { value: "50%", label: "Avg. CPL Reduction" }, { value: "3.2x", label: "Avg. Lead Volume Increase" }],
+  contentSections: [{ heading: "Boston Digital Advertising Services", body: "<p>Our Boston practice serves healthcare systems (Partners HealthCare, Dana-Farber, Children's Hospital patient acquisition campaigns), financial services (wealth management, banking, insurance), legal (personal injury, business litigation, immigration), biotech and life sciences (clinical trial recruitment, brand awareness), and education (university enrollment campaigns).</p>" }],
+  faqs: [{ question: "Do you handle healthcare advertising compliance for Boston hospitals?", answer: "Yes. HIPAA-compliant tracking and healthcare advertising policy compliance is a core capability. We have extensive experience with healthcare advertising for both large health systems and independent specialty practices throughout the greater Boston area." }],
+  servicesOffered: [
+    { label: "Media Buying Boston", href: "/services/media-buying" },
+    { label: "Google Ads Boston", href: "/services/google-ads" },
+    { label: "Lead Generation Boston", href: "/services/lead-generation" },
+    { label: "Programmatic Advertising Boston", href: "/services/programmatic-advertising" },
+  ],
+  featuredIndustries: [{ label: "Healthcare Advertising Boston", href: "/industries/healthcare" }, { label: "Financial Services Boston", href: "/industries/financial-services" }],
+  featuredTestimonialIds: ["t1", "t5"],
+  localBusinessSchema: { addressLocality: "Boston", addressRegion: "MA", postalCode: "02101", telephone: "[PHONE]", areaServed: ["Boston", "Cambridge", "Worcester", "Springfield", "Lowell", "Quincy"], latitude: 42.3601, longitude: -71.0589 },
+};

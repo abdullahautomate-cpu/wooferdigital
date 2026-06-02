@@ -1,0 +1,33 @@
+import type { LocationPage } from "@/types/location";
+export const chicagoData: LocationPage = {
+  slug: "chicago",
+  city: "Chicago",
+  state: "IL",
+  stateFullName: "Illinois",
+  metroPopulation: "9.5 million",
+  metaTitle: "Media Buying Agency Chicago | Digital Advertising Agency IL",
+  metaDescription: "Leading media buying and digital advertising agency in Chicago. Google Ads, Meta Ads, programmatic, CTV for Chicago-area brands. Free Chicago ad audit.",
+  breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Chicago", href: "/locations/chicago" }],
+  heroHeadline: "Chicago's Performance Media Buying & Digital Advertising Agency",
+  heroSubheadline: "Enterprise-grade paid advertising for Chicago businesses — from the Loop to the suburbs — across Google, Meta, programmatic, and CTV.",
+  heroCTAText: "Get Free Chicago Ad Audit",
+  introText: "Chicago is the Midwest's largest advertising market and home to a thriving mix of financial services, healthcare, manufacturing, professional services, and consumer brands. Woofer Digital has served Chicago-area businesses across every major industry, delivering consistent above-benchmark results in this competitive but opportunity-rich market. From downtown financial district firms to suburban home services contractors, our Chicago expertise drives meaningful growth through paid advertising.",
+  localMarketInsights: "Chicago's advertising market is dominated by financial services, healthcare, and professional services advertisers — driving up CPCs in those verticals but leaving opportunity in adjacent categories. Neighborhood-level targeting (Lincoln Park, Wicker Park, Logan Square, South Loop) significantly outperforms broad city targeting for local businesses. The Midwest pricing mentality means value-focused messaging tends to outperform premium/luxury positioning for most categories. Strong B2B market due to concentration of corporate headquarters.",
+  stats: [{ value: "9.5M", label: "Chicago Metro Population" }, { value: "100+", label: "Chicago Area Clients Served" }, { value: "49%", label: "Avg. CPL Reduction" }, { value: "3.4x", label: "Avg. Lead Volume Increase" }],
+  contentSections: [
+    { heading: "Digital Advertising in the Chicago Market", body: "<p>Woofer Digital serves Chicago area brands with full-service paid advertising management. Our Chicago practice has deep experience in financial services (particularly wealth management, banking, and insurance), healthcare (including Northwestern Memorial, Rush, and major health system patient acquisition campaigns), legal advertising (personal injury, immigration, employment law), and B2B demand generation for the city's substantial corporate and professional services sector.</p>" },
+    { heading: "Chicago Market Advertising Strategy", body: "<p>Effective Chicago advertising requires understanding the Midwest buyer mindset — value-oriented, trust-driven, and skeptical of excessive marketing claims. Our Chicago campaigns emphasize credibility signals, transparent pricing where applicable, and community connection over aspirational lifestyle positioning. For local service businesses, neighborhood-specific creative and targeting dramatically outperforms broad metro campaigns.</p>" },
+  ],
+  faqs: [{ question: "What industries do you serve in Chicago?", answer: "Our Chicago client base spans financial services, healthcare, legal, home services, real estate, ecommerce, professional services, and B2B technology. The Chicago market is particularly strong for financial and professional services advertising." }],
+  servicesOffered: [
+    { label: "Media Buying Chicago", href: "/services/media-buying" },
+    { label: "Google Ads Chicago", href: "/services/google-ads" },
+    { label: "Facebook Ads Chicago", href: "/services/facebook-instagram-ads" },
+    { label: "Programmatic Advertising Chicago", href: "/services/programmatic-advertising" },
+    { label: "CTV Advertising Chicago", href: "/services/connected-tv" },
+    { label: "Lead Generation Chicago", href: "/services/lead-generation" },
+  ],
+  featuredIndustries: [{ label: "Financial Services Chicago", href: "/industries/financial-services" }, { label: "Healthcare Advertising Chicago", href: "/industries/healthcare" }, { label: "Law Firm Advertising Chicago", href: "/industries/law-firm" }],
+  featuredTestimonialIds: ["t5", "t1", "t4"],
+  localBusinessSchema: { addressLocality: "Chicago", addressRegion: "IL", postalCode: "60601", telephone: "[PHONE]", areaServed: ["Chicago", "Naperville", "Evanston", "Oak Park", "Schaumburg", "Joliet"], latitude: 41.8781, longitude: -87.6298 },
+};

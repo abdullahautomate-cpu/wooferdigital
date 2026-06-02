@@ -1,0 +1,28 @@
+import type { LocationPage } from "@/types/location";
+export const seattleData: LocationPage = {
+  slug: "seattle",
+  city: "Seattle",
+  state: "WA",
+  stateFullName: "Washington",
+  metroPopulation: "4.0 million",
+  metaTitle: "Media Buying Agency Seattle | Digital Advertising Agency WA",
+  metaDescription: "Expert media buying and digital advertising agency in Seattle. Google Ads, Meta Ads, programmatic for Seattle-area tech and business. Free Seattle ad audit.",
+  breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Seattle", href: "/locations/seattle" }],
+  heroHeadline: "Seattle Media Buying Agency for Tech, Healthcare & Consumer Brands",
+  heroSubheadline: "Performance advertising for Seattle-area brands — from tech companies to healthcare systems to DTC brands — across Google, Meta, programmatic, and CTV.",
+  heroCTAText: "Get Free Seattle Ad Audit",
+  introText: "Seattle is the tech epicenter of the Pacific Northwest, home to Amazon, Microsoft, Expedia, and hundreds of tech unicorns and startups. Combined with strong healthcare, retail, and food & beverage industries, Seattle offers a highly educated, high-income advertising audience with sophisticated digital behavior. Woofer Digital serves Seattle businesses with expert paid advertising management tuned for this tech-forward market.",
+  localMarketInsights: "Seattle has one of the highest household incomes and highest digital engagement rates in the U.S. — making it an premium market for high-consideration B2B and consumer products. Tech workforce drives strong SaaS and B2B advertising demand. Strong outdoor and health-conscious consumer culture creates advertising opportunities in fitness, outdoor gear, and wellness. High cost of living drives strong service business advertising competition.",
+  stats: [{ value: "4.0M", label: "Seattle Metro Population" }, { value: "50+", label: "Seattle Clients Served" }, { value: "47%", label: "Avg. CPL Reduction" }, { value: "3.3x", label: "Avg. Lead Volume Increase" }],
+  contentSections: [{ heading: "Seattle Digital Advertising Services", body: "<p>We serve Seattle businesses across SaaS and technology, healthcare, legal, real estate, ecommerce, and consumer brands. Seattle's high-income, tech-savvy consumer base makes it one of the highest-quality advertising markets in the country for premium products and services.</p>" }],
+  faqs: [{ question: "Do you specialize in SaaS advertising for Seattle tech companies?", answer: "Yes. SaaS and B2B technology is one of our strongest practice areas, and Seattle's tech ecosystem generates significant demand for demand generation, free trial acquisition, and pipeline growth advertising." }],
+  servicesOffered: [
+    { label: "Media Buying Seattle", href: "/services/media-buying" },
+    { label: "Google Ads Seattle", href: "/services/google-ads" },
+    { label: "Lead Generation Seattle", href: "/services/lead-generation" },
+    { label: "Programmatic Advertising Seattle", href: "/services/programmatic-advertising" },
+  ],
+  featuredIndustries: [{ label: "SaaS Advertising Seattle", href: "/industries/saas" }, { label: "Healthcare Advertising Seattle", href: "/industries/healthcare" }],
+  featuredTestimonialIds: ["t3", "t5"],
+  localBusinessSchema: { addressLocality: "Seattle", addressRegion: "WA", postalCode: "98101", telephone: "[PHONE]", areaServed: ["Seattle", "Bellevue", "Redmond", "Kirkland", "Tacoma", "Everett"], latitude: 47.6062, longitude: -122.3321 },
+};

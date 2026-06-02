@@ -1,0 +1,27 @@
+import type { LocationPage } from "@/types/location";
+export const sanDiegoData: LocationPage = {
+  slug: "san-diego",
+  city: "San Diego",
+  state: "CA",
+  stateFullName: "California",
+  metroPopulation: "3.3 million",
+  metaTitle: "Media Buying Agency San Diego | Digital Advertising Agency CA",
+  metaDescription: "Expert media buying and digital advertising agency in San Diego. Google Ads, Meta Ads, programmatic for San Diego healthcare, biotech, and defense businesses. Free audit.",
+  breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "San Diego", href: "/locations/san-diego" }],
+  heroHeadline: "San Diego Media Buying Agency for Biotech, Defense & Consumer Brands",
+  heroSubheadline: "Performance advertising for San Diego's thriving biotech, defense, healthcare, and consumer markets across all major digital channels.",
+  heroCTAText: "Get Free San Diego Ad Audit",
+  introText: "San Diego is a unique market combining world-class biotech and life sciences companies, major military/defense presence, premium coastal real estate, healthcare institutions, and a thriving consumer brand scene. With strong household incomes and a highly educated population, San Diego offers excellent advertising efficiency for premium products and professional services.",
+  localMarketInsights: "Biotech corridor (Torrey Pines) creates strong B2B and clinical trial advertising demand. Military-adjacent advertising opportunities are significant with multiple bases in the area. Proximity to Mexico drives Spanish-language advertising importance. Premium coastal real estate market. Strong wellness and outdoor lifestyle culture creates opportunities for health, fitness, and consumer brands.",
+  stats: [{ value: "3.3M", label: "San Diego Metro Population" }, { value: "40+", label: "San Diego Clients Served" }, { value: "46%", label: "Avg. CPL Reduction" }, { value: "3.5x", label: "Avg. Lead Volume Increase" }],
+  contentSections: [{ heading: "San Diego Digital Advertising Services", body: "<p>We serve San Diego businesses across biotech/life sciences, healthcare, legal, real estate, defense contractors, and consumer brands. San Diego's unique mix of industries creates diverse advertising opportunities that our full-service practice is well-equipped to address.</p>" }],
+  faqs: [{ question: "Do you work with biotech and life sciences companies in San Diego?", answer: "Yes. We manage B2B advertising, clinical trial recruitment campaigns, and healthcare professional targeting for biotech and life sciences companies in San Diego's biotech corridor. This specialized work requires understanding of FDA advertising regulations and medical/scientific audience targeting." }],
+  servicesOffered: [
+    { label: "Media Buying San Diego", href: "/services/media-buying" },
+    { label: "Google Ads San Diego", href: "/services/google-ads" },
+    { label: "Lead Generation San Diego", href: "/services/lead-generation" },
+  ],
+  featuredIndustries: [{ label: "Healthcare Advertising San Diego", href: "/industries/healthcare" }, { label: "SaaS Advertising San Diego", href: "/industries/saas" }],
+  featuredTestimonialIds: ["t3", "t1"],
+  localBusinessSchema: { addressLocality: "San Diego", addressRegion: "CA", postalCode: "92101", telephone: "[PHONE]", areaServed: ["San Diego", "Chula Vista", "El Cajon", "Escondido", "Oceanside", "Carlsbad"], latitude: 32.7157, longitude: -117.1611 },
+};

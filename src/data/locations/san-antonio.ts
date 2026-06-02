@@ -1,0 +1,27 @@
+import type { LocationPage } from "@/types/location";
+export const sanAntonioData: LocationPage = {
+  slug: "san-antonio",
+  city: "San Antonio",
+  state: "TX",
+  stateFullName: "Texas",
+  metroPopulation: "2.6 million",
+  metaTitle: "Media Buying Agency San Antonio | Digital Advertising Agency TX",
+  metaDescription: "Expert media buying and digital advertising agency in San Antonio, TX. Google Ads, Meta Ads, bilingual campaigns for San Antonio businesses. Free SA ad audit.",
+  breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "San Antonio", href: "/locations/san-antonio" }],
+  heroHeadline: "San Antonio Media Buying & Digital Advertising Agency",
+  heroSubheadline: "Bilingual paid advertising for San Antonio businesses — reaching both English and Spanish-speaking consumers — across Google, Meta, and programmatic channels.",
+  heroCTAText: "Get Free San Antonio Ad Audit",
+  introText: "San Antonio is the nation's 7th largest city and one of its most bilingual — with a majority Hispanic population that requires authentic Spanish-language advertising strategy. Combined with a strong military/defense presence, growing healthcare sector, and robust tourism industry, San Antonio presents diverse advertising opportunities for brands that understand this unique market.",
+  localMarketInsights: "Over 65% of San Antonio residents identify as Hispanic/Latino — making it one of the most bilingual advertising markets in the U.S. Military and DOD-adjacent industries drive strong employment and consumer spending. Tourism (River Walk, Alamo) creates hospitality advertising demand. Healthcare growing rapidly with Methodist, Baptist, and UT Health systems. Lower CPMs than coastal markets make San Antonio a highly efficient market.",
+  stats: [{ value: "2.6M", label: "San Antonio Metro Population" }, { value: "65%+", label: "Hispanic/Latino Population" }, { value: "30+", label: "SA Clients Served" }, { value: "43%", label: "Avg. CPL Reduction" }],
+  contentSections: [{ heading: "San Antonio Digital Advertising Services", body: "<p>Bilingual advertising (English/Spanish) is core to our San Antonio practice. We serve home services, healthcare, legal, real estate, and consumer businesses across the SA metro, with particular expertise in reaching San Antonio's large Hispanic consumer base with culturally authentic messaging.</p>" }],
+  faqs: [{ question: "How important is Spanish-language advertising in San Antonio?", answer: "Extremely important. With over 65% Hispanic/Latino population, Spanish-language campaigns are essential for reaching the full San Antonio consumer market. We develop native Spanish creative and landing pages — not just translated content." }],
+  servicesOffered: [
+    { label: "Media Buying San Antonio", href: "/services/media-buying" },
+    { label: "Google Ads San Antonio", href: "/services/google-ads" },
+    { label: "Lead Generation San Antonio", href: "/services/lead-generation" },
+  ],
+  featuredIndustries: [{ label: "Healthcare Advertising San Antonio", href: "/industries/healthcare" }, { label: "Home Services San Antonio", href: "/industries/home-services" }],
+  featuredTestimonialIds: ["t7", "t8"],
+  localBusinessSchema: { addressLocality: "San Antonio", addressRegion: "TX", postalCode: "78201", telephone: "[PHONE]", areaServed: ["San Antonio", "New Braunfels", "Schertz", "Seguin", "Boerne", "Kerrville"], latitude: 29.4241, longitude: -98.4936 },
+};

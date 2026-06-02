@@ -1,0 +1,31 @@
+import type { LocationPage } from "@/types/location";
+export const houstonData: LocationPage = {
+  slug: "houston",
+  city: "Houston",
+  state: "TX",
+  stateFullName: "Texas",
+  metroPopulation: "7.3 million",
+  metaTitle: "Media Buying Agency Houston | Digital Advertising Agency TX",
+  metaDescription: "Top-rated media buying and digital advertising agency in Houston, TX. Google Ads, Meta, programmatic for Houston businesses. Free Houston ad audit.",
+  breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Houston", href: "/locations/houston" }],
+  heroHeadline: "Houston Media Buying & Performance Advertising Agency",
+  heroSubheadline: "Data-driven paid advertising for Houston businesses across energy, healthcare, legal, and more — driving measurable growth in the nation's 4th largest city.",
+  heroCTAText: "Get Free Houston Ad Audit",
+  introText: "Houston is America's 4th largest city and one of its most economically diverse — spanning energy, healthcare (the Texas Medical Center is the world's largest), legal, real estate, and a booming tech sector. Woofer Digital serves Houston businesses with expert paid advertising management, delivering strong results in this high-growth, multi-industry market.",
+  localMarketInsights: "Houston's enormous geographic footprint (672 sq miles within city limits) requires hyper-local geographic targeting for service businesses. The Texas Medical Center drives significant healthcare advertising demand. Energy sector companies advertise heavily in B2B channels. Strong Spanish-language market — over 40% of Houston residents are Hispanic or Latino. Lower average CPMs than New York or LA make Houston a high-efficiency market for many advertisers.",
+  stats: [{ value: "7.3M", label: "Houston Metro Population" }, { value: "40%+", label: "Hispanic/Latino Population" }, { value: "80+", label: "Houston Clients Served" }, { value: "45%", label: "Avg. CPL Reduction" }],
+  contentSections: [
+    { heading: "Houston Digital Advertising Services", body: "<p>We provide comprehensive paid advertising management for Houston businesses including healthcare (Texas Medical Center and surrounding health systems), legal (personal injury is extremely competitive in Houston), home services (HVAC, roofing, plumbing in a climate that drives year-round demand), real estate, and energy/oil & gas industry B2B advertising.</p>" },
+  ],
+  faqs: [{ question: "What makes Houston advertising unique?", answer: "Houston's enormous geographic size, diverse population (highly multilingual market), and mix of B2B and consumer industries create unique targeting opportunities. Spanish-language campaigns are particularly effective for reaching Houston's large Hispanic consumer base." }],
+  servicesOffered: [
+    { label: "Media Buying Houston", href: "/services/media-buying" },
+    { label: "Google Ads Houston", href: "/services/google-ads" },
+    { label: "Facebook Ads Houston", href: "/services/facebook-instagram-ads" },
+    { label: "Lead Generation Houston", href: "/services/lead-generation" },
+    { label: "Programmatic Advertising Houston", href: "/services/programmatic-advertising" },
+  ],
+  featuredIndustries: [{ label: "Healthcare Advertising Houston", href: "/industries/healthcare" }, { label: "Home Services Advertising Houston", href: "/industries/home-services" }, { label: "Law Firm Advertising Houston", href: "/industries/law-firm" }],
+  featuredTestimonialIds: ["t7", "t1"],
+  localBusinessSchema: { addressLocality: "Houston", addressRegion: "TX", postalCode: "77001", telephone: "[PHONE]", areaServed: ["Houston", "Sugar Land", "The Woodlands", "Pearland", "Katy", "Humble"], latitude: 29.7604, longitude: -95.3698 },
+};

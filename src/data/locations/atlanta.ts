@@ -1,0 +1,28 @@
+import type { LocationPage } from "@/types/location";
+export const atlantaData: LocationPage = {
+  slug: "atlanta",
+  city: "Atlanta",
+  state: "GA",
+  stateFullName: "Georgia",
+  metroPopulation: "6.3 million",
+  metaTitle: "Media Buying Agency Atlanta | Digital Advertising Agency GA",
+  metaDescription: "Top media buying and digital advertising agency in Atlanta. Google Ads, Meta Ads, programmatic, CTV for Atlanta businesses. Free Atlanta ad audit.",
+  breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Atlanta", href: "/locations/atlanta" }],
+  heroHeadline: "Atlanta's Leading Media Buying & Performance Marketing Agency",
+  heroSubheadline: "Data-driven paid advertising for Atlanta brands — from Midtown startups to Buckhead financial firms — across Google, Meta, TikTok, and programmatic.",
+  heroCTAText: "Get Free Atlanta Ad Audit",
+  introText: "Atlanta is the economic hub of the Southeast and one of America's fastest-growing major cities. With a diverse economy spanning fintech, healthcare, media/entertainment, logistics, and consumer brands — plus one of the fastest-growing Black consumer markets in the country — Atlanta presents unique advertising opportunities for brands ready to compete in this dynamic market.",
+  localMarketInsights: "Atlanta is a major Black consumer market — culturally authentic campaigns that resonate with this demographic are critical for brands targeting Atlanta's diverse consumer base. Strong fintech sector (Fiserv, NCR, Global Payments headquarters) drives B2B demand. Entertainment industry (Tyler Perry Studios, major film productions) creates unique advertising adjacencies. Rapid suburban growth in suburbs like Alpharetta, Marietta, and Duluth drives home services and real estate advertising.",
+  stats: [{ value: "6.3M", label: "Atlanta Metro Population" }, { value: "60+", label: "Atlanta Clients Served" }, { value: "44%", label: "Avg. CPL Reduction" }, { value: "3.5x", label: "Avg. Lead Volume Increase" }],
+  contentSections: [{ heading: "Atlanta Digital Advertising Services", body: "<p>We serve Atlanta businesses across healthcare, legal, financial services, real estate, home services, and technology verticals. Our Atlanta campaigns leverage the city's unique demographic profile and rapid growth to deliver above-benchmark results across all major paid advertising channels.</p>" }],
+  faqs: [{ question: "What industries perform best with advertising in Atlanta?", answer: "Legal, healthcare, real estate, and home services consistently deliver strong ROI in the Atlanta market. The city's rapid population growth drives demand for all these services. Fintech and B2B technology advertising is also very active in the Atlanta market." }],
+  servicesOffered: [
+    { label: "Media Buying Atlanta", href: "/services/media-buying" },
+    { label: "Google Ads Atlanta", href: "/services/google-ads" },
+    { label: "Facebook Ads Atlanta", href: "/services/facebook-instagram-ads" },
+    { label: "Lead Generation Atlanta", href: "/services/lead-generation" },
+  ],
+  featuredIndustries: [{ label: "Healthcare Advertising Atlanta", href: "/industries/healthcare" }, { label: "Real Estate Advertising Atlanta", href: "/industries/real-estate" }],
+  featuredTestimonialIds: ["t4", "t7"],
+  localBusinessSchema: { addressLocality: "Atlanta", addressRegion: "GA", postalCode: "30301", telephone: "[PHONE]", areaServed: ["Atlanta", "Alpharetta", "Marietta", "Sandy Springs", "Decatur", "Dunwoody"], latitude: 33.749, longitude: -84.388 },
+};

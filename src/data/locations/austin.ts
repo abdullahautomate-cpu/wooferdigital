@@ -1,0 +1,28 @@
+import type { LocationPage } from "@/types/location";
+export const austinData: LocationPage = {
+  slug: "austin",
+  city: "Austin",
+  state: "TX",
+  stateFullName: "Texas",
+  metroPopulation: "2.3 million",
+  metaTitle: "Media Buying Agency Austin | Digital Advertising Agency TX",
+  metaDescription: "Expert media buying and digital advertising agency in Austin, TX. Google Ads, Meta, TikTok for Austin tech, ecommerce, and local businesses. Free Austin ad audit.",
+  breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Austin", href: "/locations/austin" }],
+  heroHeadline: "Austin Media Buying Agency for Tech Startups & Growing Brands",
+  heroSubheadline: "Performance advertising for Austin's thriving tech scene, DTC brands, and service businesses — across Google, Meta, TikTok, and programmatic channels.",
+  heroCTAText: "Get Free Austin Ad Audit",
+  introText: "Austin has transformed into one of America's premier tech and startup hubs, with a booming DTC brand scene, explosive population growth, and a unique culture that rewards authenticity and innovation in advertising. Companies like Tesla, Apple, Oracle, and hundreds of startups call Austin home, creating a high-energy, high-competition advertising environment that rewards creative excellence.",
+  localMarketInsights: "Austin's tech workforce drives strong demand for SaaS, developer tools, and B2B tech advertising. DTC and consumer brand scene is vibrant — Austin is home to dozens of fast-growing consumer brands. Young, educated population heavily uses TikTok and Instagram — strong social media advertising performance. Real estate market remains highly competitive with continued population influx. South by Southwest (SXSW) creates annual high-impact advertising opportunities.",
+  stats: [{ value: "2.3M", label: "Austin Metro Population" }, { value: "35+", label: "Austin Clients Served" }, { value: "44%", label: "Avg. CPL Reduction" }, { value: "4.2x", label: "Avg. Lead Volume Increase" }],
+  contentSections: [{ heading: "Austin Digital Advertising Services", body: "<p>We serve Austin businesses across SaaS and tech, ecommerce and DTC brands, real estate, home services, healthcare, and professional services. Austin's young, tech-forward demographic makes it one of the strongest markets for TikTok and Instagram advertising, and the city's growth trajectory continues to create new advertising opportunities.</p>" }],
+  faqs: [{ question: "What makes Austin advertising unique?", answer: "Austin's rapidly growing, tech-forward population responds well to innovative advertising approaches. TikTok and Instagram perform exceptionally well here. The city's startup culture values authenticity — advertising that feels corporate or inauthentic consistently underperforms." }],
+  servicesOffered: [
+    { label: "Media Buying Austin", href: "/services/media-buying" },
+    { label: "Google Ads Austin", href: "/services/google-ads" },
+    { label: "TikTok Advertising Austin", href: "/services/tiktok-advertising" },
+    { label: "Ecommerce Advertising Austin", href: "/services/ecommerce-advertising" },
+  ],
+  featuredIndustries: [{ label: "SaaS Advertising Austin", href: "/industries/saas" }, { label: "Ecommerce Advertising Austin", href: "/industries/ecommerce-advertising" }],
+  featuredTestimonialIds: ["t6", "t3"],
+  localBusinessSchema: { addressLocality: "Austin", addressRegion: "TX", postalCode: "78701", telephone: "[PHONE]", areaServed: ["Austin", "Round Rock", "Cedar Park", "Georgetown", "Pflugerville", "Kyle"], latitude: 30.2672, longitude: -97.7431 },
+};

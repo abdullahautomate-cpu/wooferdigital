@@ -1,0 +1,27 @@
+import type { LocationPage } from "@/types/location";
+export const philadelphiaData: LocationPage = {
+  slug: "philadelphia",
+  city: "Philadelphia",
+  state: "PA",
+  stateFullName: "Pennsylvania",
+  metroPopulation: "6.2 million",
+  metaTitle: "Media Buying Agency Philadelphia | Digital Advertising Agency PA",
+  metaDescription: "Expert media buying and digital advertising agency in Philadelphia. Google Ads, Meta Ads, programmatic for Philly businesses. Free Philadelphia ad audit.",
+  breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Philadelphia", href: "/locations/philadelphia" }],
+  heroHeadline: "Philadelphia Media Buying & Performance Advertising Agency",
+  heroSubheadline: "Expert paid advertising for Philadelphia businesses — from Center City to the suburbs — across Google, Meta, programmatic, and CTV.",
+  heroCTAText: "Get Free Philly Ad Audit",
+  introText: "Philadelphia is one of America's great historic cities and a major economic center for healthcare, education, financial services, and professional services. With the world-class Penn Medicine and Jefferson Health systems, multiple major universities, and a growing tech scene, Philadelphia represents a diverse and opportunity-rich advertising market.",
+  localMarketInsights: "Philadelphia's healthcare sector is world-class and drives significant patient acquisition advertising. Strong university presence (Penn, Temple, Drexel, LaSalle) creates education advertising opportunities. Neighborhood-specific targeting is effective (Main Line, South Philly, Fishtown, Northern Liberties). Blue-collar heritage means value-focused messaging tends to outperform premium positioning in many categories.",
+  stats: [{ value: "6.2M", label: "Philadelphia Metro Population" }, { value: "45+", label: "Philadelphia Clients Served" }, { value: "47%", label: "Avg. CPL Reduction" }, { value: "3.3x", label: "Avg. Lead Volume Increase" }],
+  contentSections: [{ heading: "Philadelphia Digital Advertising Services", body: "<p>We serve Philadelphia businesses across healthcare, legal, financial services, real estate, home services, and education. Philadelphia's world-class healthcare institutions and strong legal market make it one of our highest-performing markets for professional services advertising.</p>" }],
+  faqs: [{ question: "Do you serve the suburbs of Philadelphia?", answer: "Yes. We serve the entire Philadelphia metro area including Main Line suburbs (Ardmore, Wayne, Bryn Mawr), South Jersey, Delaware County, Montgomery County, and all surrounding suburban markets." }],
+  servicesOffered: [
+    { label: "Media Buying Philadelphia", href: "/services/media-buying" },
+    { label: "Google Ads Philadelphia", href: "/services/google-ads" },
+    { label: "Lead Generation Philadelphia", href: "/services/lead-generation" },
+  ],
+  featuredIndustries: [{ label: "Healthcare Advertising Philadelphia", href: "/industries/healthcare" }, { label: "Law Firm Advertising Philadelphia", href: "/industries/law-firm" }],
+  featuredTestimonialIds: ["t1", "t4"],
+  localBusinessSchema: { addressLocality: "Philadelphia", addressRegion: "PA", postalCode: "19101", telephone: "[PHONE]", areaServed: ["Philadelphia", "Camden", "Chester County", "Montgomery County", "Delaware County", "Bucks County"], latitude: 39.9526, longitude: -75.1652 },
+};

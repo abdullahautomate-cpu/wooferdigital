@@ -1,0 +1,28 @@
+import type { LocationPage } from "@/types/location";
+export const phoenixData: LocationPage = {
+  slug: "phoenix",
+  city: "Phoenix",
+  state: "AZ",
+  stateFullName: "Arizona",
+  metroPopulation: "5.0 million",
+  metaTitle: "Media Buying Agency Phoenix | Digital Advertising Agency AZ",
+  metaDescription: "Expert media buying and digital advertising agency in Phoenix, AZ. Google Ads, Meta Ads, programmatic for Phoenix-area businesses. Free Phoenix ad audit.",
+  breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Phoenix", href: "/locations/phoenix" }],
+  heroHeadline: "Phoenix Media Buying Agency for Growing Arizona Brands",
+  heroSubheadline: "Performance paid advertising for Phoenix area businesses — one of America's fastest-growing metros — across Google, Meta, and all major digital channels.",
+  heroCTAText: "Get Free Phoenix Ad Audit",
+  introText: "Phoenix is the 5th largest city in America and one of its fastest-growing — adding hundreds of thousands of new residents annually as companies and individuals relocate from higher-cost markets. This growth creates enormous advertising demand across home services, real estate, healthcare, legal, and consumer services. Woofer Digital serves Phoenix-area businesses with expert paid advertising management built for this high-growth market.",
+  localMarketInsights: "Phoenix's explosive population growth drives strong demand for home services (HVAC, roofing, plumbing — where extreme heat creates year-round emergency service demand), real estate, and healthcare. Large retiree population creates strong insurance, healthcare, and financial services advertising demand. Spanish-language market is significant. HVAC advertising in Phoenix has extreme seasonality — summer campaigns must account for surge demand.",
+  stats: [{ value: "5.0M", label: "Phoenix Metro Population" }, { value: "55+", label: "Phoenix Clients Served" }, { value: "45%", label: "Avg. CPL Reduction" }, { value: "3.7x", label: "Avg. Lead Volume Increase" }],
+  contentSections: [{ heading: "Phoenix Digital Advertising Services", body: "<p>Home services advertising is one of our strongest Phoenix practice areas — HVAC advertising in Phoenix has a massive seasonal component driven by extreme summer heat (140°F+ car interior temperatures drive emergency AC service calls). Real estate advertising is extremely competitive due to rapid population influx. Healthcare and legal advertising are also major Phoenix advertising verticals.</p>" }],
+  faqs: [{ question: "How do you handle HVAC advertising seasonality in Phoenix?", answer: "HVAC advertising in Phoenix follows extreme seasonal patterns. We pre-build summer campaigns months in advance, ensure budget headroom for demand spikes during heat waves, and implement automated bid increases triggered by temperature data for emergency service keywords." }],
+  servicesOffered: [
+    { label: "Media Buying Phoenix", href: "/services/media-buying" },
+    { label: "Google Ads Phoenix", href: "/services/google-ads" },
+    { label: "Lead Generation Phoenix", href: "/services/lead-generation" },
+    { label: "Facebook Ads Phoenix", href: "/services/facebook-instagram-ads" },
+  ],
+  featuredIndustries: [{ label: "Home Services Advertising Phoenix", href: "/industries/home-services" }, { label: "Real Estate Advertising Phoenix", href: "/industries/real-estate" }],
+  featuredTestimonialIds: ["t7", "t12"],
+  localBusinessSchema: { addressLocality: "Phoenix", addressRegion: "AZ", postalCode: "85001", telephone: "[PHONE]", areaServed: ["Phoenix", "Scottsdale", "Mesa", "Chandler", "Tempe", "Gilbert", "Glendale"], latitude: 33.4484, longitude: -112.074 },
+};

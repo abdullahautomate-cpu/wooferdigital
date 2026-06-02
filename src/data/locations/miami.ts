@@ -1,0 +1,31 @@
+import type { LocationPage } from "@/types/location";
+export const miamiData: LocationPage = {
+  slug: "miami",
+  city: "Miami",
+  state: "FL",
+  stateFullName: "Florida",
+  metroPopulation: "6.2 million",
+  metaTitle: "Media Buying Agency Miami | Digital Advertising Agency FL",
+  metaDescription: "Premier media buying and digital advertising agency in Miami. Spanish & English campaigns, Google Ads, Meta Ads, TikTok for Miami businesses. Free Miami ad audit.",
+  breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Miami", href: "/locations/miami" }],
+  heroHeadline: "Miami Media Buying Agency: Bilingual Performance Advertising",
+  heroSubheadline: "Spanish and English paid advertising for Miami brands — reaching the city's diverse consumer base across Google, Meta, TikTok, and programmatic channels.",
+  heroCTAText: "Get Free Miami Ad Audit",
+  introText: "Miami is unlike any other U.S. advertising market. Its uniquely international, bilingual consumer base — with enormous Latin American influence — combined with booming real estate, finance, healthcare, and tourism industries creates advertising opportunities that require specialized cultural and market knowledge. Woofer Digital's Miami practice is built for this market, with bilingual creative capabilities and deep experience in Miami's most competitive advertising verticals.",
+  localMarketInsights: "Miami is a majority Spanish-speaking market — Spanish-language campaigns are essential for reaching the full consumer population, not a supplementary strategy. Latin American luxury consumer segment drives premium brand advertising. Real estate advertising operates at extreme price points with international buyer targeting. Strong tourism and hospitality advertising market. Growing tech hub (Miami Tech Week, Wynwood tech scene) creating new B2B advertising demand. Financial services advertising is strong due to wealth management concentration.",
+  stats: [{ value: "6.2M", label: "Miami Metro Population" }, { value: "65%+", label: "Spanish-Speaking Population" }, { value: "70+", label: "Miami Clients Served" }, { value: "51%", label: "Avg. CPL Reduction" }],
+  contentSections: [
+    { heading: "Miami Digital Advertising: Bilingual Strategy", body: "<p>Effective Miami advertising requires native Spanish-language creative — not translated English content. Our Miami team develops culturally authentic Spanish campaigns that resonate with the Miami Hispanic consumer and drive meaningfully better results than English-only or translated campaigns. We serve Miami's diverse industries including real estate, healthcare, legal, finance, hospitality, ecommerce, and insurance.</p>" },
+  ],
+  faqs: [{ question: "Do you create Spanish-language ads for Miami?", answer: "Yes — native Spanish creative is a core capability for our Miami practice. We develop culturally authentic Spanish ad copy, landing pages, and creative for all platforms, reaching Miami's majority Spanish-speaking consumer base effectively." }],
+  servicesOffered: [
+    { label: "Media Buying Miami", href: "/services/media-buying" },
+    { label: "Google Ads Miami", href: "/services/google-ads" },
+    { label: "Facebook Ads Miami", href: "/services/facebook-instagram-ads" },
+    { label: "TikTok Advertising Miami", href: "/services/tiktok-advertising" },
+    { label: "Lead Generation Miami", href: "/services/lead-generation" },
+  ],
+  featuredIndustries: [{ label: "Real Estate Advertising Miami", href: "/industries/real-estate" }, { label: "Healthcare Advertising Miami", href: "/industries/healthcare" }, { label: "Insurance Advertising Miami", href: "/industries/insurance" }],
+  featuredTestimonialIds: ["t2", "t12"],
+  localBusinessSchema: { addressLocality: "Miami", addressRegion: "FL", postalCode: "33101", telephone: "[PHONE]", areaServed: ["Miami", "Fort Lauderdale", "West Palm Beach", "Boca Raton", "Coral Gables", "Miami Beach"], latitude: 25.7617, longitude: -80.1918 },
+};
