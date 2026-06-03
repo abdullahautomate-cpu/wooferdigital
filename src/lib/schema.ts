@@ -36,6 +36,50 @@ export function buildOrganizationSchema() {
   };
 }
 
+export function buildSiteLocalBusinessSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    name: SITE_NAME,
+    url: SITE_URL,
+    telephone: PHONE,
+    email: EMAIL,
+    image: `${SITE_URL}/og-default.jpg`,
+    logo: `${SITE_URL}/images/logo.png`,
+    description:
+      "Premier U.S. media buying and performance marketing agency specializing in Google Ads, reputation management, AI SEO, lead generation, and marketing automation.",
+    priceRange: "$$$$",
+    areaServed: { "@type": "Country", name: "United States" },
+    address: { "@type": "PostalAddress", addressCountry: "US" },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: PHONE,
+      email: EMAIL,
+      contactType: "customer service",
+      areaServed: "US",
+      availableLanguage: "English",
+    },
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Digital Marketing Services",
+      itemListElement: [
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Google Ads Management" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Media Buying Services" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Online Reputation Management" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "AI SEO Services" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Lead Generation Services" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Marketing Automation" } },
+      ],
+    },
+    sameAs: [
+      site.social.linkedin,
+      site.social.twitter,
+      site.social.facebook,
+      site.social.instagram,
+    ],
+  };
+}
+
 export function buildServiceSchema(page: ServicePage) {
   return {
     "@context": "https://schema.org",

@@ -4,7 +4,7 @@ import "@/styles/globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import SchemaOrg from "@/components/seo/SchemaOrg";
-import { buildOrganizationSchema } from "@/lib/schema";
+import { buildOrganizationSchema, buildSiteLocalBusinessSchema } from "@/lib/schema";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 
 const inter = Inter({
@@ -50,12 +50,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const orgSchema = buildOrganizationSchema();
+  const schemas = [buildOrganizationSchema(), buildSiteLocalBusinessSchema()];
 
   return (
     <html lang="en" className={`${inter.variable} ${dmSans.variable}`}>
       <head>
-        <SchemaOrg schema={orgSchema} />
+        <SchemaOrg schema={schemas} />
         <script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="Mo1u4N07gpje8rW0FNGYYw"

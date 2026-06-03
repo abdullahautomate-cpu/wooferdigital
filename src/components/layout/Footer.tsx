@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { PHONE, EMAIL, ADDRESS, SOCIAL_LINKS, SITE_NAME } from "@/lib/constants";
+import { PHONE, ADDRESS, SOCIAL_LINKS, SITE_NAME } from "@/lib/constants";
 import { NAV_SERVICES, NAV_INDUSTRIES } from "@/lib/constants";
 
 const locations = [
@@ -42,8 +42,8 @@ export default function Footer() {
               <a href={`tel:${PHONE}`} className="flex items-center gap-2 text-white/60 hover:text-white transition-colors">
                 📞 {PHONE}
               </a>
-              <a href={`mailto:${EMAIL}`} className="flex items-center gap-2 text-white/60 hover:text-white transition-colors">
-                ✉️ {EMAIL}
+              <a href="/contact" className="flex items-center gap-2 text-white/60 hover:text-white transition-colors">
+                ✉️ Send Us a Message
               </a>
               <p className="text-white/40 text-xs mt-3">{ADDRESS}</p>
             </div>

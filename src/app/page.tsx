@@ -9,9 +9,9 @@ import IndustryGrid from "@/components/sections/IndustryGrid";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Media Buying Agency | Performance Marketing Agency USA",
+  title: "Media Buying Agency | Performance Marketing",
   description:
-    "Woofer Digital is a premier U.S. media buying and performance marketing agency. We manage $2B+ in annual ad spend across Google, Meta, TikTok, Programmatic & CTV. Get your free media audit.",
+    "Premier U.S. media buying agency managing $2B+ in ad spend across Google, Meta, TikTok & Programmatic. Google Ads, reputation management & AI SEO. Get your free audit.",
   path: "/",
 });
 
