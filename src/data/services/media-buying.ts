@@ -3,18 +3,18 @@ import type { ServicePage } from "@/types/service";
 export const mediaBuyingData: ServicePage = {
   slug: "media-buying",
   title: "Media Buying Services",
-  metaTitle: "Media Buying Services | Strategic Paid Media Agency",
+  metaTitle: "Media Buying Agency | Media Planning & Buying Services",
   metaDescription:
-    "Woofer Digital offers full-service media buying across digital, programmatic, social, and streaming channels. Expert media planning, placement, and optimization. Request a free audit.",
+    "Full-service media buying agency specializing in media planning & buying, paid media buying, programmatic media buying, and digital media buying across social, search, and streaming channels. Expert google ad specialist and Meta Ads specialist team. Request a free media audit.",
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "Media Buying", href: "/services/media-buying" }],
   heroHeadline: "Media Buying Services That Maximize Every Dollar of Your Ad Spend",
   heroSubheadline:
-    "We plan, negotiate, place, and optimize media across every channel — driving measurable ROI for growth-focused brands across the United States.",
+    "We plan, negotiate, place, and optimize media across every channel — the media buyer agency and media planning & buying partner for growth-focused brands across the United States.",
   heroCTAText: "Get Your Free Media Audit",
   heroCTAHref: "/contact",
   badge: "Premier U.S. Media Buying Agency",
   introText:
-    "Effective media buying is equal parts art and science. It requires a deep understanding of audience behavior, platform algorithms, competitive landscape, and the nuanced interplay between creative and targeting. At Woofer Digital, our media buying team combines data-driven strategy with decades of collective hands-on experience to consistently deliver campaigns that outperform benchmarks across every channel. Whether you're a direct-to-consumer brand scaling to eight figures, a B2B company driving enterprise pipeline, or a local service business competing for market share, our approach adapts to your goals and delivers results you can measure, defend, and scale.",
+    "Effective media buying is equal parts art and science. It requires a deep understanding of audience behavior, platform algorithms, competitive landscape, and the nuanced interplay between creative and targeting. As a full-service digital media buying agency, Woofer Digital's media buying team combines data-driven strategy with decades of collective hands-on experience to consistently deliver campaigns that outperform benchmarks across every channel. Our media planning & buying capabilities span paid media buying across programmatic media buying networks, social platforms, search, and streaming — with dedicated google ad specialist and Meta Ads specialist expertise for each platform. We operate as media buying platforms strategists and executors, handling everything from media plan creation to real-time bid optimization across all major media buying platforms. Whether you're a direct-to-consumer brand scaling to eight figures, a B2B company driving enterprise pipeline, or a local service business competing for market share in your city, our approach adapts to your goals and delivers results you can measure, defend, and scale.",
   stats: [
     { value: "$2B+", label: "Annual Ad Spend Managed" },
     { value: "500+", label: "Brands Scaled" },
@@ -55,6 +55,11 @@ export const mediaBuyingData: ServicePage = {
         {
           heading: "Attribution & Measurement",
           body: `<p>Accurate measurement is the foundation of intelligent media buying decisions. We implement multi-touch attribution modeling, server-side tracking, and incrementality testing to give you an honest picture of what's actually driving results — and what to scale, adjust, or cut.</p>`,
+        },
+        {
+          heading: "Google Ad Specialist & Meta Ads Specialist Services",
+          body: `<p>Within our broader media buying capabilities, Woofer Digital maintains dedicated platform specialists for the two most important paid media channels: Google and Meta. Our google ad specialist team handles all Google Ads formats — Search, Display, Shopping, YouTube, Performance Max, and Google Local ads — with the platform depth that generalist agencies can't match. Our Meta Ads specialist team manages Facebook and Instagram campaigns with advanced audience architecture, creative testing frameworks, and conversion API integration that maximizes performance within Meta's privacy-forward environment.</p>
+<p>Whether you need a dedicated ads specialist for a single platform or a comprehensive cross-channel media buying team, Woofer Digital has the specialized expertise to manage your paid media buying with precision. If you're hiring a google ads specialist or looking to work with a Meta Ads specialist for the first time, our team brings the platform credentials, case study history, and performance infrastructure to deliver results from day one.</p>`,
         },
       ],
     },
@@ -125,6 +130,16 @@ export const mediaBuyingData: ServicePage = {
       answer:
         "We manage campaigns across all major digital advertising platforms: Google Ads (Search, Display, Shopping, YouTube, Performance Max), Meta (Facebook and Instagram), TikTok, LinkedIn, Pinterest, Programmatic DSPs, and Connected TV (OTT) platforms including Hulu, Peacock, Paramount+, and Roku.",
     },
+    {
+      question: "What is paid media buying?",
+      answer:
+        "Paid media buying is the professional practice of purchasing advertising placements across digital channels — including search engines, social media platforms, programmatic display networks, and streaming services. Unlike earned media (PR, organic social) or owned media (your website), paid media buying gives brands direct, immediate control over where and when their ads appear and who sees them. A professional paid media buying team brings strategic planning, platform expertise, audience targeting sophistication, and optimization experience that in-house or DIY approaches typically lack.",
+    },
+    {
+      question: "How do I hire a Google Ads specialist?",
+      answer:
+        "When hiring a Google Ads specialist or working with a google ads specialist agency, look for verified Google Ads certifications, a demonstrated track record with accounts in your industry, transparent reporting practices, and clear communication about strategy. At Woofer Digital, our google ad specialist team is Google-certified, manages hundreds of millions in annual Google Ads spend, and specializes in delivering measurable ROI. Contact us for a free Google Ads audit and see exactly what our specialists find in your account.",
+    },
   ],
   featuredTestimonialIds: ["t1", "t7", "t10"],
   featuredCaseStudyIds: ["medbridge-health-google-ads", "apex-fitness-meta-ecommerce"],
@@ -133,6 +148,8 @@ export const mediaBuyingData: ServicePage = {
     { label: "Facebook & Instagram Ads", href: "/services/facebook-instagram-ads" },
     { label: "Programmatic Advertising", href: "/services/programmatic-advertising" },
     { label: "Lead Generation", href: "/services/lead-generation" },
+    { label: "Reputation Management", href: "/services/reputation-management" },
+    { label: "AI SEO Services", href: "/services/ai-seo" },
   ],
   relatedIndustries: [
     { label: "Healthcare Advertising", href: "/industries/healthcare" },

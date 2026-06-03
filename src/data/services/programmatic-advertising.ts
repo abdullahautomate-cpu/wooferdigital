@@ -9,12 +9,12 @@ export const programmaticAdvertisingData: ServicePage = {
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "Programmatic Advertising", href: "/services/programmatic-advertising" }],
   heroHeadline: "Programmatic Advertising That Reaches Your Exact Audience at Scale",
   heroSubheadline:
-    "DSP-powered programmatic campaigns with precision audience targeting, real-time bidding optimization, and full-funnel attribution across the open web.",
+    "DSP-powered programmatic media buying with precision audience targeting, real-time bidding optimization, and full-funnel attribution across the open web.",
   heroCTAText: "Get Free Programmatic Audit",
   heroCTAHref: "/contact",
   badge: "Premium DSP Partner",
   introText:
-    "Programmatic advertising is the automated buying and selling of digital ad inventory across the open web, reaching audiences through sophisticated targeting that goes far beyond what social platforms can offer. Using demand-side platforms (DSPs), we access premium inventory across tens of thousands of publishers, layering in first-party data, third-party intent data, behavioral signals, and AI-powered optimization to serve the right ad to the right person at the right moment — at scale. Programmatic advertising now accounts for over 90% of all digital display ad transactions in the U.S., and the sophistication of available audience data has never been greater. Woofer Digital's programmatic team manages campaigns through industry-leading DSPs including The Trade Desk, DV360, MediaMath, and Amazon DSP.",
+    "Programmatic advertising — also called programmatic media buying — is the automated buying and selling of digital ad inventory across the open web, reaching audiences through sophisticated targeting that goes far beyond what social platforms can offer. Using demand-side platforms (DSPs), we access premium inventory across tens of thousands of publishers, layering in first-party data, third-party intent data, behavioral signals, and AI-powered optimization to serve the right ad to the right person at the right moment — at scale. Programmatic media buying now accounts for over 90% of all digital display ad transactions in the U.S., and the sophistication of available audience data has never been greater. Woofer Digital's programmatic media buying team manages campaigns through industry-leading DSPs including The Trade Desk, DV360, MediaMath, and Amazon DSP.",
   stats: [
     { value: "90%+", label: "US Digital Display Via Programmatic", suffix: "" },
     { value: "68%", label: "Avg. Lead Quality Improvement", suffix: "" },

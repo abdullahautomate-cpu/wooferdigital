@@ -23,8 +23,11 @@ export const NAV_SERVICES = [
   { label: "TikTok Advertising", href: "/services/tiktok-advertising", description: "Performance-driven TikTok campaigns" },
   { label: "Programmatic Advertising", href: "/services/programmatic-advertising", description: "DSP management & real-time bidding" },
   { label: "Connected TV (CTV)", href: "/services/connected-tv", description: "OTT & streaming TV advertising" },
-  { label: "Lead Generation", href: "/services/lead-generation", description: "Paid lead generation at scale" },
+  { label: "Lead Generation", href: "/services/lead-generation", description: "B2B lead generation at scale" },
   { label: "Ecommerce Advertising", href: "/services/ecommerce-advertising", description: "DTC & ecommerce growth campaigns" },
+  { label: "Reputation Management", href: "/services/reputation-management", description: "Online reputation & review management" },
+  { label: "AI SEO", href: "/services/ai-seo", description: "AI-powered SEO optimization" },
+  { label: "Marketing Automation", href: "/services/marketing-automation", description: "AI & sales automation experts" },
 ] as const;
 
 export const NAV_INDUSTRIES = [

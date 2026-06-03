@@ -3,18 +3,18 @@ import type { ServicePage } from "@/types/service";
 export const googleAdsData: ServicePage = {
   slug: "google-ads",
   title: "Google Ads Management Services",
-  metaTitle: "Google Ads Management Agency | PPC Management Services",
+  metaTitle: "Google Ads Agency | Google Search Ads Management & PPC Services",
   metaDescription:
-    "Expert Google Ads management from certified PPC specialists. Search, Display, Shopping, YouTube, and Performance Max campaigns. Get your free Google Ads audit today.",
+    "Top-rated Google Ads agency and google ads specialist team managing search ads, google display ads, google local ads, google ppc ads, and Performance Max campaigns. Google ads company delivering proven ROI. Get your free Google Ads audit today.",
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "Google Ads", href: "/services/google-ads" }],
   heroHeadline: "Google Ads Management That Delivers Measurable Revenue Growth",
   heroSubheadline:
-    "Certified Google Ads specialists managing Search, Display, Shopping, YouTube, and Performance Max campaigns — with a singular focus on your ROI.",
+    "Certified Google Ads specialists and google ads specialist team managing Search, Display, Shopping, YouTube, and Performance Max campaigns — with a singular focus on your ROI. Your trusted google ads agency and google ads company.",
   heroCTAText: "Get Free Google Ads Audit",
   heroCTAHref: "/contact",
   badge: "Google Premier Partner Agency",
   introText:
-    "Google Ads remains the most powerful intent-based advertising platform on the internet. When someone searches for your product or service, they're raising their hand — and a well-executed Google Ads campaign puts your brand directly in front of that high-intent prospect at the exact moment they're ready to act. But the gap between a mediocre Google Ads account and a high-performing one is enormous. Poor account structure, wasted spend on irrelevant keywords, weak ad copy, and misaligned landing pages can drain thousands of dollars per month with minimal results. Woofer Digital's Google Ads specialists build and manage accounts designed from the ground up to maximize conversion volume and minimize wasted spend.",
+    "Google Ads remains the most powerful intent-based advertising platform on the internet. When someone searches for your product or service, they're raising their hand — and a well-executed Google Ads campaign puts your brand directly in front of that high-intent prospect at the exact moment they're ready to act. As a full-service google ads agency and google ads company, Woofer Digital manages the complete spectrum of Google Ads services: google search ads, google display ads, google shopping campaigns, google local ads, google ppc ads, and Performance Max. Our certified google ads specialist team builds and manages accounts designed from the ground up to maximize conversion volume and minimize wasted spend. Whether you need to sponsor google ads for immediate visibility, scale google business ads, or dominate the local pack with google my business ads, we deliver measurable results across every Google Ads format.",
   stats: [
     { value: "52%", label: "Avg. CPL Reduction", suffix: "" },
     { value: "340%", label: "Avg. ROAS Improvement", suffix: "" },
@@ -50,6 +50,14 @@ export const googleAdsData: ServicePage = {
           heading: "Google Remarketing",
           body: `<p>Remarketing campaigns target people who have previously visited your website, engaged with your app, or appear in your customer lists. These audiences convert at significantly higher rates than cold audiences — often 2-5x higher. We build sophisticated remarketing sequences based on pages visited, time spent, products viewed, and actions taken, creating personalized ad experiences that efficiently convert warm prospects into customers.</p>`,
         },
+        {
+          heading: "Google Local Ads & Google My Business Ads",
+          body: `<p>Google local ads (also known as Local Services Ads) are one of the most powerful formats for service businesses targeting customers in a specific city or region. Unlike standard search ads, google local ads appear above all other search results with your business name, star rating, and phone number prominently displayed — making them the highest-visibility format for local service providers. We manage google my business ads and Local Services Ads for service businesses across healthcare, legal, home services, dental, and other local service categories. Our google ads specialist team handles verification, budget management, lead tracking, and continuous optimization to maximize your local ad presence.</p>`,
+        },
+        {
+          heading: "Google Business Ads & Google Display Ads",
+          body: `<p>Google business ads encompass the full range of Google Ads formats that help businesses grow their customer base across Google's properties. This includes search ads that appear when people search for your services, google display ads across millions of websites and apps in the Google Display Network, google my business ads for local service visibility, and Performance Max campaigns that automatically serve ads across all Google channels. Our google ads company manages all of these formats as a unified, attribution-connected program — so every dollar of your ad spend is tracked to actual business outcomes. We also help businesses sponsor google ads effectively, ensuring your brand appears prominently for the searches that matter most to your growth.</p>`,
+        },
       ],
     },
     {
@@ -70,7 +78,7 @@ export const googleAdsData: ServicePage = {
     {
       heading: "Google Ads Management Pricing",
       body: `<p>Woofer Digital's Google Ads management pricing is transparent and straightforward. Our management fee is typically 15-20% of managed ad spend, with a minimum monthly management fee for smaller accounts. We don't mark up ad spend or take kickbacks from Google — every dollar of your ad budget goes directly to your campaigns.</p>
-<p>Our typical client invests between $10,000 and $500,000 per month in Google Ads, with management fees scaled accordingly. Custom pricing is available for enterprise clients and accounts with complex multi-channel requirements.</p>`,
+<p>Our typical client invests between $10,000 and $500,000 per month in Google Ads services, with management fees scaled accordingly. Custom google ads pricing is available for enterprise clients and accounts with complex multi-channel requirements. As a google ads agency committed to transparency, we publish our google ads pricing structure clearly so you always know exactly what you're paying and what it covers.</p>`,
     },
   ],
   processSteps: [
@@ -84,6 +92,11 @@ export const googleAdsData: ServicePage = {
       question: "How much does Google Ads management cost?",
       answer:
         "Woofer Digital charges a management fee of 15-20% of your monthly Google Ads spend, with a minimum monthly management fee of $1,500. This covers full campaign management, optimization, reporting, and strategy. Your ad spend goes directly to Google — we don't mark it up.",
+    },
+    {
+      question: "What does Google Ads pricing look like?",
+      answer:
+        "Google Ads pricing has two components: your ad spend (paid directly to Google) and your agency management fee. Google Ads cost varies significantly by industry and keyword competition — average CPCs range from $1-2 in lower-competition industries to $50-100+ in highly competitive verticals like legal or insurance. For most service businesses, a monthly Google Ads budget of $2,000-10,000 is a starting point. Woofer Digital's management fee is 15-20% of ad spend. We provide detailed google ads pricing projections before you commit to any budget.",
     },
     {
       question: "How quickly can I see results from Google Ads?",
@@ -116,7 +129,8 @@ export const googleAdsData: ServicePage = {
   relatedServices: [
     { label: "Media Buying Services", href: "/services/media-buying" },
     { label: "Lead Generation", href: "/services/lead-generation" },
-    { label: "Ecommerce Advertising", href: "/services/ecommerce-advertising" },
+    { label: "AI SEO Services", href: "/services/ai-seo" },
+    { label: "Reputation Management", href: "/services/reputation-management" },
     { label: "Programmatic Advertising", href: "/services/programmatic-advertising" },
   ],
   relatedIndustries: [

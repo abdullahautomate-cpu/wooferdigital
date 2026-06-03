@@ -3,18 +3,18 @@ import type { ServicePage } from "@/types/service";
 export const leadGenerationData: ServicePage = {
   slug: "lead-generation",
   title: "Lead Generation Advertising Services",
-  metaTitle: "Lead Generation Agency | Paid Lead Generation Services USA",
+  metaTitle: "B2B Lead Generation Services | Lead Generation Agency USA",
   metaDescription:
-    "Expert paid lead generation services across Google, Meta, programmatic & more. B2B, healthcare, legal, real estate, and home services lead gen. Free audit available.",
+    "Expert B2B lead generation services including appointment setting service, cold email outreach service, and business lead generation services across Google, Meta & more. Hire a lead generation specialist today. Free audit available.",
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "Lead Generation", href: "/services/lead-generation" }],
   heroHeadline: "Lead Generation Advertising That Delivers Quality Leads at Scale",
   heroSubheadline:
-    "Data-driven paid lead generation across every major platform — engineered to lower your cost per lead while increasing lead quality and conversion rates.",
+    "Data-driven B2B lead generation services and business lead generation across every major platform — engineered to lower your cost per lead while increasing lead quality. Hire a lead generation specialist backed by proven results.",
   heroCTAText: "Get Free Lead Gen Audit",
   heroCTAHref: "/contact",
   badge: "Performance Lead Generation Agency",
   introText:
-    "Lead generation is the lifeblood of service businesses, professional practices, and B2B companies across every industry. But the difference between a lead generation campaign that produces high-cost, low-quality inquiries and one that consistently delivers ready-to-buy prospects is enormous — and it determines whether paid advertising becomes a scalable growth engine or a money pit. Woofer Digital has built and optimized lead generation campaigns across virtually every service industry: legal, healthcare, financial services, insurance, real estate, home services, dental, SaaS, and B2B technology. Our approach combines platform expertise, audience precision, conversion-optimized landing pages, and continuous data-driven optimization to deliver leads that actually convert to paying customers.",
+    "Lead generation is the lifeblood of service businesses, professional practices, and B2B companies across every industry. Our B2B lead generation services and business lead generation services are built to deliver qualified prospects at scale — not just raw form fills. The difference between a lead generation campaign that produces high-cost, low-quality inquiries and one that consistently delivers ready-to-buy prospects is enormous. Woofer Digital's lead generation agency has built and optimized campaigns across virtually every service industry: legal, healthcare, financial services, insurance, real estate, home services, dental, SaaS, and B2B technology. Our full-suite lead generation services include seo lead generation services, appointment setting service, cold email outreach service, and targeted lead generation for it services — combining platform expertise, audience precision, conversion-optimized landing pages, and continuous data-driven optimization to deliver leads that actually convert to paying customers.",
   stats: [
     { value: "64%", label: "Avg. CPL Reduction", suffix: "" },
     { value: "3.8x", label: "Avg. Lead Volume Increase", suffix: "" },
@@ -45,6 +45,18 @@ export const leadGenerationData: ServicePage = {
         {
           heading: "Landing Page Optimization for Lead Gen",
           body: `<p>The landing page is where most lead generation campaigns succeed or fail. We build and continuously optimize landing pages for lead gen using proven frameworks: minimal navigation, benefit-focused headline, social proof above the fold, simple forms (3 fields maximum for initial capture), clear privacy reassurance, and prominent click-to-call for mobile visitors. Our landing pages average conversion rates of 8-15% — 3-5x the industry average.</p>`,
+        },
+        {
+          heading: "Appointment Setting Services",
+          body: `<p>Our appointment setting service goes beyond raw lead generation to deliver calendar-ready, qualified appointments directly to your sales team. Many businesses need more than a form fill — they need a prospect who has been pre-qualified, given enough information to make an informed decision, and is ready to have a buying conversation. Our appointment setting service combines targeted paid advertising with follow-up sequences, pre-qualification call handling, and calendar integration to deliver appointments that convert at significantly higher rates than self-booked leads. This full-funnel appointment setting approach is particularly effective for high-value service businesses in healthcare, legal, financial services, home services, and SaaS.</p>`,
+        },
+        {
+          heading: "Cold Email Outreach Services",
+          body: `<p>Cold email outreach service is one of the most cost-effective B2B lead generation channels when executed correctly. Our cold email outreach service combines precision prospect list building, personalized multi-step email sequences, deliverability optimization, and A/B testing to generate qualified B2B leads through the inbox. We follow all CAN-SPAM and GDPR compliance requirements, use dedicated sending infrastructure to protect your domain reputation, and build sequences that feel personal and relevant — not spammy or generic. Cold email outreach service works particularly well for B2B companies targeting specific industries, company sizes, or job titles where paid advertising targeting is limited.</p>`,
+        },
+        {
+          heading: "Lead Generation for IT Services & SaaS",
+          body: `<p>Lead generation for it services and SaaS companies requires targeting precision that consumer platforms often can't provide. IT services companies and SaaS vendors typically need to reach IT decision-makers, CTOs, technical directors, or specific industry verticals — audiences that require a combination of LinkedIn Ads (job title and seniority targeting), Google Search (intent-driven bottom-funnel queries), programmatic ABM (account-based marketing), and seo lead generation services for organic pipeline. Our specialized lead generation for it services practice brings deep knowledge of the IT buyer's journey, typical enterprise sales cycles, and the specific metrics (SQL volume, opportunity pipeline, CAC) that matter for technology companies. We integrate directly with HubSpot, Salesforce, and other CRM platforms used by IT services and SaaS companies.</p>`,
         },
       ],
     },
@@ -99,6 +111,21 @@ export const leadGenerationData: ServicePage = {
       answer:
         "Yes. We integrate lead generation campaigns with all major CRM platforms including Salesforce, HubSpot, Zoho, GoHighLevel, and custom CRM systems. CRM integration is essential for tracking lead quality and using downstream conversion data to optimize campaigns toward actual business results.",
     },
+    {
+      question: "Do you offer appointment setting services?",
+      answer:
+        "Yes. Our appointment setting service combines paid media lead generation with pre-qualification and direct calendar booking — so your sales team receives ready-to-close appointments rather than raw form fills. We handle the entire process: generating interest through paid ads, qualifying prospects through follow-up sequences or pre-qualification calls, and booking appointments directly into your team's calendar. Appointment setting is available as a standalone service or as an add-on to any paid lead generation program.",
+    },
+    {
+      question: "Can you run cold email outreach campaigns?",
+      answer:
+        "Yes. Our cold email outreach service is a highly effective B2B lead generation channel for businesses targeting specific industries, company sizes, or decision-maker titles. We build prospect lists, write personalized multi-step sequences, manage sending infrastructure, ensure full CAN-SPAM and GDPR compliance, and optimize campaigns based on open rates, reply rates, and qualified lead outcomes. Cold email outreach works best as a complement to paid media lead generation, not a standalone channel.",
+    },
+    {
+      question: "Can I hire a lead generation specialist from Woofer Digital?",
+      answer:
+        "Yes. Woofer Digital operates as your dedicated lead generation agency and lead generation specialist team. You get access to certified specialists in Google Ads lead gen, Meta lead gen, B2B lead gen, and content-driven seo lead generation services — without the overhead of hiring in-house. Our specialists are assigned to your account and serve as an extension of your marketing team, with full transparency into strategy, execution, and performance.",
+    },
   ],
   featuredTestimonialIds: ["t1", "t4", "t12"],
   featuredCaseStudyIds: ["medbridge-health-google-ads", "reyes-law-firm-lead-gen"],
@@ -107,6 +134,8 @@ export const leadGenerationData: ServicePage = {
     { label: "Facebook & Instagram Ads", href: "/services/facebook-instagram-ads" },
     { label: "Programmatic Advertising", href: "/services/programmatic-advertising" },
     { label: "Media Buying Services", href: "/services/media-buying" },
+    { label: "Marketing Automation", href: "/services/marketing-automation" },
+    { label: "AI SEO Services", href: "/services/ai-seo" },
   ],
   relatedIndustries: [
     { label: "Healthcare Lead Generation", href: "/industries/healthcare" },
