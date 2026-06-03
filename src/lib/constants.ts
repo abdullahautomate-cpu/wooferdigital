@@ -1,9 +1,9 @@
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || "https://wooferdigital.com";
 export const SITE_NAME = "Woofer Digital";
-export const PHONE = "[PHONE]";
-export const EMAIL = "[EMAIL]";
-export const ADDRESS = "[ADDRESS]";
+export const PHONE = "(689) 303-4605";
+export const EMAIL = "info@wooferdigital.com";
+export const ADDRESS = "United States";
 
 export const COLORS = {
   navy: "#0D1B3E",
