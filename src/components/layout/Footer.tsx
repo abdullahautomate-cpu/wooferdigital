@@ -91,8 +91,22 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Company */}
+          {/* Free Tools */}
           <div>
+            <h3 className="text-sm font-semibold text-white uppercase tracking-widest mb-5">Free Tools</h3>
+            <ul className="space-y-2.5 mb-6">
+              {[
+                { label: "Google Ads ROI Calculator", href: "/tools/google-ads-roi-calculator" },
+                { label: "Ad Benchmarks by Industry", href: "/tools/ad-spend-benchmarks" },
+                { label: "All Free Tools", href: "/tools" },
+              ].map((item) => (
+                <li key={item.href}>
+                  <Link href={item.href} className="text-sm text-white/50 hover:text-white transition-colors">
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
             <h3 className="text-sm font-semibold text-white uppercase tracking-widest mb-5">Company</h3>
             <ul className="space-y-2.5">
               {[
@@ -100,8 +114,6 @@ export default function Footer() {
                 { label: "Case Studies", href: "/case-studies" },
                 { label: "Blog", href: "/blog" },
                 { label: "Contact", href: "/contact" },
-                { label: "All Locations", href: "/locations" },
-                { label: "All Industries", href: "/industries" },
               ].map((item) => (
                 <li key={item.href}>
                   <Link href={item.href} className="text-sm text-white/50 hover:text-white transition-colors">

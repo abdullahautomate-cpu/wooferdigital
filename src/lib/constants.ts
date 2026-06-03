@@ -43,6 +43,12 @@ export const NAV_INDUSTRIES = [
   { label: "Education", href: "/industries/education" },
 ] as const;
 
+export const FREE_TOOLS = [
+  { label: "Google Ads ROI Calculator", href: "/tools/google-ads-roi-calculator", description: "Estimate clicks, leads & revenue" },
+  { label: "Ad Benchmarks by Industry", href: "/tools/ad-spend-benchmarks", description: "CPC, CPL & ROAS data for 20+ industries" },
+  { label: "All Free Tools", href: "/tools", description: "All calculators & resources" },
+] as const;
+
 export const SOCIAL_LINKS = {
   linkedin: "https://linkedin.com/company/wooferdigital",
   twitter: "https://twitter.com/wooferdigital",
