@@ -3,9 +3,9 @@ import type { ServicePage } from "@/types/service";
 export const marketingAutomationData: ServicePage = {
   slug: "marketing-automation",
   title: "Marketing Automation Services",
-  metaTitle: "Marketing Automation Experts | Business & Sales Automation Services USA",
+  metaTitle: "Marketing Automation Experts Agency",
   metaDescription:
-    "Certified marketing automation experts delivering AI automation, email automation, sales automation, and process automation for US businesses. Hire an automation expert with proven ROI. Free strategy session.",
+    "Certified marketing automation experts building AI automation, email automation & sales automation for U.S. businesses. Hire an expert with proven ROI. Free session.",
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "Marketing Automation", href: "/services/marketing-automation" }],
   heroHeadline: "Marketing Automation Experts Who Turn Your Tech Stack Into a Revenue Engine",
   heroSubheadline:

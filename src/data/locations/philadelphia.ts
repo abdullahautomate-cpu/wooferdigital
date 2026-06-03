@@ -5,7 +5,7 @@ export const philadelphiaData: LocationPage = {
   state: "PA",
   stateFullName: "Pennsylvania",
   metroPopulation: "6.2 million",
-  metaTitle: "Media Buying Agency Philadelphia | Digital Advertising Agency PA",
+  metaTitle: "Media Buying Agency Philadelphia",
   metaDescription: "Expert media buying and digital advertising agency in Philadelphia. Google Ads, Meta Ads, programmatic for Philly businesses. Free Philadelphia ad audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Philadelphia", href: "/locations/philadelphia" }],
   heroHeadline: "Philadelphia Media Buying & Performance Advertising Agency",

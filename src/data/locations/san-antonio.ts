@@ -5,7 +5,7 @@ export const sanAntonioData: LocationPage = {
   state: "TX",
   stateFullName: "Texas",
   metroPopulation: "2.6 million",
-  metaTitle: "Media Buying Agency San Antonio | Digital Advertising Agency TX",
+  metaTitle: "Media Buying Agency San Antonio",
   metaDescription: "Expert media buying and digital advertising agency in San Antonio, TX. Google Ads, Meta Ads, bilingual campaigns for San Antonio businesses. Free SA ad audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "San Antonio", href: "/locations/san-antonio" }],
   heroHeadline: "San Antonio Media Buying & Digital Advertising Agency",

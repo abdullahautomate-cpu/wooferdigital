@@ -5,7 +5,7 @@ import CTABanner from "@/components/sections/CTABanner";
 import GradientText from "@/components/ui/GradientText";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Industries We Serve | Advertising Across Every Vertical",
+  title: "Industries We Serve | Paid Media Agency",
   description:
     "Woofer Digital brings deep industry expertise to paid advertising across healthcare, legal, financial services, ecommerce, SaaS, real estate, automotive, and more.",
   path: "/industries",

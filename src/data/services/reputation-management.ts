@@ -3,9 +3,9 @@ import type { ServicePage } from "@/types/service";
 export const reputationManagementData: ServicePage = {
   slug: "reputation-management",
   title: "Online Reputation Management Services",
-  metaTitle: "Online Reputation Management Services | Reputation Management Agency",
+  metaTitle: "Online Reputation Management Agency",
   metaDescription:
-    "Professional online reputation management services for businesses, brands, and individuals. Reputation management agency specializing in brand reputation management, seo reputation management, corporate reputation repair, and social media reputation management. Free consultation.",
+    "Online reputation management services for businesses & individuals. Review management, SEO reputation repair & brand protection across the USA. Free consultation.",
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "Reputation Management", href: "/services/reputation-management" }],
   heroHeadline: "Online Reputation Management Services That Protect and Grow Your Brand",
   heroSubheadline:

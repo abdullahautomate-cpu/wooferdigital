@@ -3,9 +3,9 @@ import type { IndustryPage } from "@/types/industry";
 export const educationData: IndustryPage = {
   slug: "education",
   industry: "Education",
-  metaTitle: "Education Advertising Agency | Student Enrollment Marketing",
+  metaTitle: "Education Advertising Agency | Enroll",
   metaDescription:
-    "Expert education advertising for universities, colleges, trade schools, and online learning platforms. Google Ads, Meta Ads, and programmatic for student enrollment. Free audit.",
+    "Expert education advertising for universities, colleges, trade schools & online learning. Google Ads, Meta & programmatic for student enrollment. Free audit.",
   breadcrumbs: [{ label: "Industries", href: "/industries" }, { label: "Education", href: "/industries/education" }],
   heroHeadline: "Education Advertising Agency That Fills Enrollment Pipelines",
   heroSubheadline: "Data-driven paid advertising for universities, community colleges, trade schools, and online learning platforms — driving inquiry volume and enrollment at competitive CPL.",

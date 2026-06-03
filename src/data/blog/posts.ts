@@ -10,7 +10,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "paid-media",
     tags: ["media buying", "digital advertising", "paid media"],
     readTime: 12,
-    metaTitle: "What Is Media Buying? Complete Guide 2025 | Woofer Digital",
+    metaTitle: "What Is Media Buying? Complete Guide 2025",
     metaDescription: "A complete guide to media buying in 2025: what it is, how it works, the key channels, and how to maximize ROI from your advertising budget.",
     bodyHtml: `<p>Media buying is the strategic process of purchasing advertising placements across digital and traditional channels to reach your target audience at the most efficient cost. In the digital age, media buying has evolved dramatically from the days of negotiating print ad space — today's media buyers navigate complex automated platforms, real-time bidding systems, and multi-channel attribution models to maximize the impact of every advertising dollar.</p>
 <h2>How Media Buying Works</h2>
@@ -36,7 +36,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "google-ads",
     tags: ["google ads", "benchmarks", "CPC", "CTR", "CPA"],
     readTime: 10,
-    metaTitle: "Google Ads Benchmarks 2025 by Industry | CPC, CTR & CPA Data",
+    metaTitle: "Google Ads Benchmarks 2025 | CPC & CPA Data",
     metaDescription: "Updated 2025 Google Ads benchmarks by industry: average CPC, CTR, and CPA for healthcare, legal, ecommerce, home services, and more. See how you compare.",
     bodyHtml: `<p>Understanding how your Google Ads performance compares to industry benchmarks is essential for evaluating campaign efficiency and setting realistic targets. These updated 2025 benchmarks cover click-through rate, average CPC, and average CPA across 20 major industries.</p>
 <h2>Google Ads Average CTR by Industry (2025)</h2>
@@ -59,7 +59,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "social-advertising",
     tags: ["facebook ads", "meta ads", "CPM", "CPC", "ad costs"],
     readTime: 9,
-    metaTitle: "Facebook Ads Cost Guide 2025: CPM, CPC & CPL Benchmarks",
+    metaTitle: "Facebook Ads Cost Guide 2025 | Benchmarks",
     metaDescription: "How much do Facebook ads cost in 2025? CPM, CPC, and CPL benchmarks by industry, plus proven strategies to reduce your Meta advertising costs.",
     bodyHtml: `<p>Facebook advertising costs are determined by a complex auction system where competition, audience quality, creative relevance, and your bidding strategy all interact to determine what you pay. This guide breaks down the key cost metrics and provides benchmarks for major industries.</p>
 <h2>Average Facebook Ads CPM in 2025</h2>
@@ -80,7 +80,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "programmatic",
     tags: ["programmatic advertising", "DSP", "RTB", "display advertising"],
     readTime: 11,
-    metaTitle: "What Is Programmatic Advertising? Complete Guide 2025",
+    metaTitle: "Programmatic Advertising Guide 2025",
     metaDescription: "A complete guide to programmatic advertising in 2025: how it works, key platforms (DSP, SSP, DMP), targeting capabilities, and how to get started.",
     bodyHtml: `<p>Programmatic advertising is the automated buying and selling of digital advertising space using software platforms and algorithms. Instead of manually negotiating placements with individual publishers, programmatic technology allows advertisers to buy impressions across thousands of websites simultaneously, with real-time bidding, advanced audience targeting, and automated optimization.</p>
 <h2>How Programmatic Advertising Works</h2>
@@ -101,7 +101,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "ctv-ott",
     tags: ["connected TV", "CTV", "OTT advertising", "streaming ads"],
     readTime: 13,
-    metaTitle: "Connected TV Advertising Guide 2025: CTV Ads, Targeting & Measurement",
+    metaTitle: "Connected TV Advertising Guide 2025 | CTV",
     metaDescription: "The complete guide to Connected TV advertising in 2025: how CTV ads work, targeting options, platforms (Hulu, Roku, Peacock), measurement, and campaign strategy.",
     bodyHtml: `<p>Connected TV advertising has become one of the most important channels in the digital advertiser's arsenal. With over 100 million cord-cutting households in the U.S. and streaming viewership continuing to grow, CTV advertising reaches audiences that linear TV increasingly cannot — with the targeting precision that digital has always promised.</p>
 <h2>What Is Connected TV (CTV) Advertising?</h2>
@@ -122,7 +122,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "lead-generation",
     tags: ["lead generation", "cost per lead", "CPL reduction", "conversion optimization"],
     readTime: 10,
-    metaTitle: "11 Strategies to Reduce Cost Per Lead in 2025 | Woofer Digital",
+    metaTitle: "11 Strategies to Reduce Cost Per Lead 2025",
     metaDescription: "High cost per lead? These 11 proven strategies will reduce your CPL across Google Ads, Facebook, and other paid channels — with real examples and benchmarks.",
     bodyHtml: `<p>Cost per lead (CPL) is the most important metric for any business running lead generation advertising. When CPL is too high, paid advertising becomes unprofitable regardless of lead volume. Here are 11 proven strategies to reduce your cost per lead without sacrificing quality.</p>
 <h2>1. Fix Your Keyword Strategy (Google Ads)</h2>
@@ -147,7 +147,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "ecommerce",
     tags: ["ecommerce advertising", "google shopping", "meta ads", "ROAS", "DTC"],
     readTime: 15,
-    metaTitle: "Ecommerce Advertising Strategy 2025: Google, Meta & TikTok Guide",
+    metaTitle: "Ecommerce Advertising Strategy 2025 Guide",
     metaDescription: "The complete ecommerce advertising playbook for 2025: Google Shopping, Meta, TikTok, attribution, and scaling strategies for DTC brands.",
     bodyHtml: `<p>Profitable ecommerce advertising in 2025 requires a multi-channel approach that balances acquisition efficiency with sustainable unit economics. This guide provides a comprehensive framework for building an ecommerce advertising strategy that scales from $10K/month to $1M+/month in ad spend.</p>
 <h2>The Foundation: Getting Attribution Right</h2>
@@ -170,7 +170,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "social-advertising",
     tags: ["tiktok ads", "tiktok advertising", "social media advertising", "short form video"],
     readTime: 12,
-    metaTitle: "TikTok Advertising Guide 2025: Complete Strategy for Brands",
+    metaTitle: "TikTok Advertising Guide 2025 | Brands",
     metaDescription: "The complete TikTok advertising guide for 2025: ad formats, targeting options, creative strategy, and how to achieve consistent ROAS on TikTok.",
     bodyHtml: `<p>TikTok advertising has matured dramatically since the platform's advertising products launched. In 2025, TikTok represents one of the most significant opportunities in paid social advertising — with reach exceeding 1 billion monthly users, CPMs often 40-50% below Meta, and an algorithm that gives even small brands the ability to reach massive audiences with the right creative.</p>
 <h2>TikTok Ad Formats Explained</h2>
@@ -191,7 +191,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "lead-generation",
     tags: ["B2B lead generation", "linkedin advertising", "ABM", "demand generation"],
     readTime: 11,
-    metaTitle: "B2B Lead Generation: 10 Best Paid Ad Strategies 2025 | Woofer Digital",
+    metaTitle: "B2B Lead Generation: 10 Paid Ad Strategies",
     metaDescription: "10 proven B2B lead generation strategies using paid advertising: LinkedIn, Google, programmatic ABM, and content promotion. Includes benchmarks and examples.",
     bodyHtml: `<p>B2B lead generation through paid advertising is fundamentally different from B2C. Longer sales cycles, higher deal values, multiple decision-makers, and the need to reach specific job titles and company profiles require a strategic approach that goes beyond the basics of most paid advertising guides.</p>
 <h2>Strategy 1: LinkedIn Ads for Decision-Maker Targeting</h2>
@@ -214,7 +214,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "industry-insights",
     tags: ["healthcare advertising", "HIPAA", "medical marketing", "healthcare marketing"],
     readTime: 13,
-    metaTitle: "HIPAA-Compliant Healthcare Advertising Guide 2025 | Woofer Digital",
+    metaTitle: "HIPAA Healthcare Advertising Guide 2025",
     metaDescription: "How to run HIPAA-compliant healthcare advertising on Google and Meta in 2025. Tracking requirements, audience restrictions, and compliant campaign architecture.",
     bodyHtml: `<p>Healthcare advertising sits at the intersection of marketing effectiveness and strict federal privacy law. HIPAA's Privacy Rule governs what information can be collected, used, and shared about patients — and standard digital advertising tracking practices can create significant compliance risk if implemented without healthcare-specific safeguards.</p>
 <h2>The HIPAA Challenge in Digital Advertising</h2>
@@ -237,7 +237,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "google-ads",
     tags: ["google ads cost", "google ads pricing", "google ads budget", "PPC pricing"],
     readTime: 14,
-    metaTitle: "Google Ads Cost & Pricing Guide 2025 | What You'll Actually Pay",
+    metaTitle: "Google Ads Cost & Pricing Guide 2025",
     metaDescription: "Complete 2025 guide to Google Ads cost and Google Ads pricing. Average CPC by industry, management fees, minimum budgets, and how to calculate your ROI before spending a dollar.",
     bodyHtml: `<p>One of the most common questions from businesses considering Google advertising is: how much do Google Ads cost? The honest answer is that google ads cost varies enormously depending on your industry, target keywords, competition level, and campaign goals. This guide breaks down google ads pricing in detail so you can set a realistic budget and evaluate what returns to expect.</p>
 <h2>How Google Ads Pricing Works</h2>
@@ -264,8 +264,8 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "seo",
     tags: ["ai seo", "ai seo strategy", "how to use ai for seo", "seo ai agent", "ai seo optimization"],
     readTime: 16,
-    metaTitle: "How to Use AI for SEO: Complete AI SEO Strategy Guide 2025",
-    metaDescription: "Learn how to use AI for SEO with this complete 2025 guide. Covers AI SEO strategy, ai-powered seo optimization, SEO AI agents, AI content creation, and technical AI SEO audit workflows.",
+    metaTitle: "How to Use AI for SEO: 2025 Strategy Guide",
+    metaDescription: "Learn how to use AI for SEO in 2025. Covers AI SEO strategy, ai-powered SEO optimization, SEO AI agents, AI content creation & technical AI SEO audit workflows.",
     bodyHtml: `<p>Artificial intelligence has fundamentally changed how the best SEO professionals approach their work — and understanding how to use AI for SEO is now a core competency for anyone serious about organic search performance. This guide covers the full spectrum of AI SEO applications, from practical ai seo strategy to the advanced seo ai agent systems that give leading agencies a compounding competitive advantage.</p>
 <h2>Why AI SEO Is No Longer Optional</h2>
 <p>Google's ranking algorithms are themselves powered by AI — RankBrain, BERT, MUM, and the Helpful Content Update are all AI-driven systems that evaluate content quality, intent alignment, and topical authority in ways that basic keyword optimization simply cannot satisfy. If you're using traditional SEO approaches against competitors using AI SEO optimization, you're bringing a manual process to an algorithmic fight. The gap in output quality, speed, and strategic insight between AI-powered and traditional SEO approaches is widening every month.</p>
@@ -296,8 +296,8 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "reputation-management",
     tags: ["best reputation management services", "online reputation management", "reputation management agency", "ORM"],
     readTime: 12,
-    metaTitle: "Best Online Reputation Management Services for Businesses 2025",
-    metaDescription: "How to find the best reputation management services for your business. Key services, what to look for in a reputation management agency, pricing, and what good results look like.",
+    metaTitle: "Best Reputation Management Services 2025",
+    metaDescription: "How to find the best reputation management services for your business. Key services, what to look for in an ORM agency, pricing & what good results look like.",
     bodyHtml: `<p>With 93% of consumers reading online reviews before making a purchase decision, and the first page of Google results for your brand name serving as your digital storefront, online reputation management has become one of the most important investments a business can make. But the market for reputation management services is crowded, and quality varies enormously. This guide helps you identify the best reputation management services for your specific situation.</p>
 <h2>What Makes a Reputation Management Service "Best in Class"?</h2>
 <p>The best reputation management services combine several distinct capabilities that must work together: review generation and management, search result monitoring and suppression, SEO-driven positive content creation, social media monitoring and response, and proactive brand authority building. Services that only address one of these areas (like "review management" tools) leave significant gaps in your reputation protection.</p>

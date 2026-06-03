@@ -3,9 +3,9 @@ import type { IndustryPage } from "@/types/industry";
 export const realEstateData: IndustryPage = {
   slug: "real-estate",
   industry: "Real Estate",
-  metaTitle: "Real Estate Advertising Agency | Realtor & Brokerage Marketing",
+  metaTitle: "Real Estate Advertising Agency USA",
   metaDescription:
-    "Expert real estate advertising for agents, teams, and brokerages. Buyer & seller lead generation via Google Ads, Facebook, and programmatic. Free real estate ad audit.",
+    "Expert real estate advertising for agents, teams & brokerages. Buyer & seller lead gen via Google Ads, Facebook & programmatic. Free real estate ad audit.",
   breadcrumbs: [{ label: "Industries", href: "/industries" }, { label: "Real Estate", href: "/industries/real-estate" }],
   heroHeadline: "Real Estate Advertising That Generates Buyer & Seller Leads at Scale",
   heroSubheadline:

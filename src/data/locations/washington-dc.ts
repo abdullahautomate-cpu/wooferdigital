@@ -5,7 +5,7 @@ export const washingtonDcData: LocationPage = {
   state: "DC",
   stateFullName: "District of Columbia",
   metroPopulation: "6.4 million",
-  metaTitle: "Media Buying Agency Washington DC | Digital Advertising Agency DC",
+  metaTitle: "Media Buying Agency Washington DC",
   metaDescription: "Expert media buying and digital advertising agency in Washington DC. Google Ads, Meta, programmatic for DC government contractors and professional services. Free audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Washington DC", href: "/locations/washington-dc" }],
   heroHeadline: "Washington DC Media Buying & Performance Advertising Agency",

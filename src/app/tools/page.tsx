@@ -3,9 +3,9 @@ import { buildMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Free Digital Marketing Tools | ROI Calculators & Industry Benchmarks",
+  title: "Free Digital Marketing Tools | Calculators",
   description:
-    "Free digital marketing tools from Woofer Digital: Google Ads ROI calculator, ad spend benchmarks by industry, CPL calculators, and more. No signup required.",
+    "Free digital marketing tools: Google Ads ROI calculator, ad spend benchmarks by industry & more. Built by performance marketing specialists. No signup required.",
   path: "/tools",
 });
 

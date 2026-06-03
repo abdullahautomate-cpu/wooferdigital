@@ -3,9 +3,9 @@ import type { IndustryPage } from "@/types/industry";
 export const saasData: IndustryPage = {
   slug: "saas",
   industry: "SaaS & Technology",
-  metaTitle: "SaaS Advertising Agency | B2B Tech Marketing Services",
+  metaTitle: "SaaS Advertising Agency | B2B Tech",
   metaDescription:
-    "Expert SaaS and B2B tech advertising for demand generation, free trial acquisition, and pipeline growth. Google Ads, LinkedIn, programmatic, ABM. Free SaaS ad audit.",
+    "Expert SaaS & B2B tech advertising for demand generation, trial acquisition & pipeline growth. Google Ads, LinkedIn, programmatic & ABM. Free SaaS audit.",
   breadcrumbs: [{ label: "Industries", href: "/industries" }, { label: "SaaS", href: "/industries/saas" }],
   heroHeadline: "SaaS Advertising Agency That Drives Pipeline, Not Just Clicks",
   heroSubheadline:

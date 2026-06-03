@@ -3,9 +3,9 @@ import type { IndustryPage } from "@/types/industry";
 export const dentalData: IndustryPage = {
   slug: "dental",
   industry: "Dental Practices",
-  metaTitle: "Dental Advertising Agency | Dental Practice Marketing",
+  metaTitle: "Dental Advertising Agency | Dentists",
   metaDescription:
-    "Expert dental advertising for general dentistry, orthodontics, implants, and cosmetic dentistry. Google Ads, Facebook, local SEO integration. Get your free dental ad audit.",
+    "Expert dental advertising for general dentistry, orthodontics, implants & cosmetic dentistry. Google Ads, Facebook & local targeting. Free dental ad audit.",
   breadcrumbs: [{ label: "Industries", href: "/industries" }, { label: "Dental", href: "/industries/dental" }],
   heroHeadline: "Dental Advertising Agency That Fills Your Schedule with New Patients",
   heroSubheadline:

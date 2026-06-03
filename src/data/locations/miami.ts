@@ -5,7 +5,7 @@ export const miamiData: LocationPage = {
   state: "FL",
   stateFullName: "Florida",
   metroPopulation: "6.2 million",
-  metaTitle: "Media Buying Agency Miami | Digital Advertising Agency FL",
+  metaTitle: "Media Buying Agency Miami | PPC",
   metaDescription: "Premier media buying and digital advertising agency in Miami. Spanish & English campaigns, Google Ads, Meta Ads, TikTok for Miami businesses. Free Miami ad audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Miami", href: "/locations/miami" }],
   heroHeadline: "Miami Media Buying Agency: Bilingual Performance Advertising",

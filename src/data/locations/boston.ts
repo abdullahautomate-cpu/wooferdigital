@@ -5,7 +5,7 @@ export const bostonData: LocationPage = {
   state: "MA",
   stateFullName: "Massachusetts",
   metroPopulation: "4.9 million",
-  metaTitle: "Media Buying Agency Boston | Digital Advertising Agency MA",
+  metaTitle: "Media Buying Agency Boston | PPC",
   metaDescription: "Premier media buying and digital advertising agency in Boston. Google Ads, Meta Ads, programmatic for Boston healthcare, biotech, and finance. Free Boston ad audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Boston", href: "/locations/boston" }],
   heroHeadline: "Boston Media Buying Agency for Healthcare, Biotech & Financial Brands",

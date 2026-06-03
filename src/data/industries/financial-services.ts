@@ -3,9 +3,9 @@ import type { IndustryPage } from "@/types/industry";
 export const financialServicesData: IndustryPage = {
   slug: "financial-services",
   industry: "Financial Services",
-  metaTitle: "Financial Services Advertising Agency | Fintech & Finance Marketing",
+  metaTitle: "Financial Services Marketing Agency",
   metaDescription:
-    "Compliant financial services advertising for banks, RIAs, lenders, and fintech. Google Ads, Meta Ads, CTV, and programmatic for regulated financial brands. Free audit.",
+    "Compliant financial services advertising for banks, RIAs, lenders & fintech. Google Ads, Meta, CTV & programmatic for regulated financial brands. Free audit.",
   breadcrumbs: [{ label: "Industries", href: "/industries" }, { label: "Financial Services", href: "/industries/financial-services" }],
   heroHeadline: "Financial Services Advertising That Builds Trust and Drives Conversions",
   heroSubheadline: "Compliant paid advertising for banks, credit unions, RIAs, mortgage lenders, and fintech companies — driving account openings, loan applications, and AUM growth.",

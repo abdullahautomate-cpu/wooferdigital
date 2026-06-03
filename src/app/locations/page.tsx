@@ -5,7 +5,7 @@ import CTABanner from "@/components/sections/CTABanner";
 import GradientText from "@/components/ui/GradientText";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Media Buying Agency Locations | Nationwide Digital Advertising",
+  title: "Locations | Digital Marketing Agency USA",
   description:
     "Woofer Digital serves brands across the United States with deep local market expertise. Find our media buying and digital advertising services in your city.",
   path: "/locations",

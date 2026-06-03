@@ -5,7 +5,7 @@ export const dallasData: LocationPage = {
   state: "TX",
   stateFullName: "Texas",
   metroPopulation: "7.7 million",
-  metaTitle: "Media Buying Agency Dallas | Digital Advertising Agency TX",
+  metaTitle: "Media Buying Agency Dallas | PPC",
   metaDescription: "Leading media buying agency in Dallas-Fort Worth. Google Ads, Meta Ads, programmatic, CTV for DFW businesses. Free Dallas digital advertising audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Dallas", href: "/locations/dallas" }],
   heroHeadline: "Dallas-Fort Worth Media Buying & Performance Advertising Agency",

@@ -5,7 +5,7 @@ export const atlantaData: LocationPage = {
   state: "GA",
   stateFullName: "Georgia",
   metroPopulation: "6.3 million",
-  metaTitle: "Media Buying Agency Atlanta | Digital Advertising Agency GA",
+  metaTitle: "Media Buying Agency Atlanta | PPC",
   metaDescription: "Top media buying and digital advertising agency in Atlanta. Google Ads, Meta Ads, programmatic, CTV for Atlanta businesses. Free Atlanta ad audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Atlanta", href: "/locations/atlanta" }],
   heroHeadline: "Atlanta's Leading Media Buying & Performance Marketing Agency",

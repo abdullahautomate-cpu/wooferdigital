@@ -5,7 +5,7 @@ export const denverData: LocationPage = {
   state: "CO",
   stateFullName: "Colorado",
   metroPopulation: "2.9 million",
-  metaTitle: "Media Buying Agency Denver | Digital Advertising Agency CO",
+  metaTitle: "Media Buying Agency Denver | PPC",
   metaDescription: "Expert media buying and performance marketing agency in Denver, CO. Google Ads, Meta Ads, programmatic for Denver businesses. Free Denver digital ad audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Denver", href: "/locations/denver" }],
   heroHeadline: "Denver Media Buying Agency for Growing Colorado Brands",

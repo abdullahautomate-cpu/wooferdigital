@@ -3,9 +3,9 @@ import type { ServicePage } from "@/types/service";
 export const googleAdsData: ServicePage = {
   slug: "google-ads",
   title: "Google Ads Management Services",
-  metaTitle: "Google Ads Agency | Google Search Ads Management & PPC Services",
+  metaTitle: "Google Ads Agency | PPC Management",
   metaDescription:
-    "Top-rated Google Ads agency and google ads specialist team managing search ads, google display ads, google local ads, google ppc ads, and Performance Max campaigns. Google ads company delivering proven ROI. Get your free Google Ads audit today.",
+    "Certified Google Ads agency managing search, display, local ads & Performance Max. Lower CPL, better ROAS & measurable revenue growth. Free audit.",
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "Google Ads", href: "/services/google-ads" }],
   heroHeadline: "Google Ads Management That Delivers Measurable Revenue Growth",
   heroSubheadline:

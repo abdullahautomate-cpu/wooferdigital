@@ -5,7 +5,7 @@ export const austinData: LocationPage = {
   state: "TX",
   stateFullName: "Texas",
   metroPopulation: "2.3 million",
-  metaTitle: "Media Buying Agency Austin | Digital Advertising Agency TX",
+  metaTitle: "Media Buying Agency Austin | PPC",
   metaDescription: "Expert media buying and digital advertising agency in Austin, TX. Google Ads, Meta, TikTok for Austin tech, ecommerce, and local businesses. Free Austin ad audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Austin", href: "/locations/austin" }],
   heroHeadline: "Austin Media Buying Agency for Tech Startups & Growing Brands",

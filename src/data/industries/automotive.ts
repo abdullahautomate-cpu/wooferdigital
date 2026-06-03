@@ -3,9 +3,9 @@ import type { IndustryPage } from "@/types/industry";
 export const automotiveData: IndustryPage = {
   slug: "automotive",
   industry: "Automotive",
-  metaTitle: "Automotive Advertising Agency | Car Dealership Marketing Services",
+  metaTitle: "Automotive Advertising Agency | Car Ads",
   metaDescription:
-    "Expert automotive advertising for dealerships, auto groups, and automotive brands. Google, Meta, programmatic, and CTV campaigns. Get your free automotive ad audit.",
+    "Expert automotive advertising for dealerships, auto groups & automotive brands. Google, Meta, programmatic & CTV campaigns. Free automotive ad audit.",
   breadcrumbs: [{ label: "Industries", href: "/industries" }, { label: "Automotive", href: "/industries/automotive" }],
   heroHeadline: "Automotive Advertising Agency That Drives Showroom Visits and VDP Views",
   heroSubheadline: "Performance advertising for automotive dealerships, auto groups, and automotive brands — driving inventory views, test drive requests, and service department growth.",

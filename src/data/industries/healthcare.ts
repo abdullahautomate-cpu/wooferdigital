@@ -3,9 +3,9 @@ import type { IndustryPage } from "@/types/industry";
 export const healthcareData: IndustryPage = {
   slug: "healthcare",
   industry: "Healthcare",
-  metaTitle: "Healthcare Advertising Agency | Medical Practice Marketing",
+  metaTitle: "Healthcare Advertising Agency | Medical",
   metaDescription:
-    "HIPAA-compliant healthcare advertising for hospitals, medical practices, urgent care, telehealth, and specialty providers. Google Ads, Meta Ads, programmatic. Free audit.",
+    "HIPAA-compliant healthcare advertising for hospitals, practices, urgent care & telehealth. Google Ads, Meta Ads & programmatic. Free healthcare audit.",
   breadcrumbs: [{ label: "Industries", href: "/industries" }, { label: "Healthcare", href: "/industries/healthcare" }],
   heroHeadline: "Healthcare Advertising Agency Trusted by Medical Practices Nationwide",
   heroSubheadline:

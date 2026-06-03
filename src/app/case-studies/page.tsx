@@ -8,9 +8,9 @@ import Badge from "@/components/ui/Badge";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Case Studies | Client Results & Performance Marketing Success Stories",
+  title: "Client Case Studies | Advertising Results",
   description:
-    "Real results from real clients. Explore Woofer Digital case studies featuring measurable outcomes across Google Ads, Meta, TikTok, programmatic, and media buying campaigns.",
+    "Real results from real clients. Case studies with measurable outcomes across Google Ads, Meta, TikTok, programmatic & media buying campaigns.",
   path: "/case-studies",
 });
 

@@ -3,9 +3,9 @@ import type { IndustryPage } from "@/types/industry";
 export const insuranceData: IndustryPage = {
   slug: "insurance",
   industry: "Insurance",
-  metaTitle: "Insurance Advertising Agency | Insurance Lead Generation Services",
+  metaTitle: "Insurance Advertising Agency | Leads",
   metaDescription:
-    "Expert insurance advertising for auto, home, life, and health insurance carriers and agencies. Compliant paid lead generation at scale. Get your free insurance ad audit.",
+    "Expert insurance advertising for auto, home, life & health carriers and agencies. Compliant paid lead generation at scale. Free insurance ad audit.",
   breadcrumbs: [{ label: "Industries", href: "/industries" }, { label: "Insurance", href: "/industries/insurance" }],
   heroHeadline: "Insurance Advertising Agency That Delivers Exclusive, High-Intent Leads",
   heroSubheadline:

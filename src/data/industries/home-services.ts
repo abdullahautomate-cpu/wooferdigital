@@ -3,9 +3,9 @@ import type { IndustryPage } from "@/types/industry";
 export const homeServicesData: IndustryPage = {
   slug: "home-services",
   industry: "Home Services",
-  metaTitle: "Home Services Advertising Agency | Contractor Marketing Services",
+  metaTitle: "Home Services Advertising Agency USA",
   metaDescription:
-    "Expert home services advertising for HVAC, plumbing, roofing, remodeling, and more. Local Google Ads, Facebook, and LSA management. Free home services ad audit.",
+    "Expert home services advertising for HVAC, plumbing, roofing & remodeling. Local Google Ads, Facebook & LSA management. Free home services ad audit.",
   breadcrumbs: [{ label: "Industries", href: "/industries" }, { label: "Home Services", href: "/industries/home-services" }],
   heroHeadline: "Home Services Advertising That Keeps Your Phone Ringing",
   heroSubheadline: "Local paid advertising for HVAC, plumbing, roofing, electrical, remodeling, and home services contractors — driving service calls and estimate requests at profitable CPLs.",

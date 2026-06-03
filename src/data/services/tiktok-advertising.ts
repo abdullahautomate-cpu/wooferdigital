@@ -3,9 +3,9 @@ import type { ServicePage } from "@/types/service";
 export const tiktokAdvertisingData: ServicePage = {
   slug: "tiktok-advertising",
   title: "TikTok Advertising Agency",
-  metaTitle: "TikTok Advertising Agency | TikTok Ads Management Services",
+  metaTitle: "TikTok Advertising Agency | TikTok Ads",
   metaDescription:
-    "Expert TikTok advertising management for brands ready to scale on the world's fastest-growing ad platform. Creative-first TikTok campaigns with measurable ROAS. Free audit.",
+    "Expert TikTok advertising for brands ready to scale. Creative-first TikTok campaigns with measurable ROAS on the world's fastest-growing platform. Free audit.",
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "TikTok Advertising", href: "/services/tiktok-advertising" }],
   heroHeadline: "TikTok Advertising Agency That Turns Scroll-Stoppers Into Sales",
   heroSubheadline:

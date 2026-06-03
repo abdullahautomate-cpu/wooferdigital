@@ -3,9 +3,9 @@ import type { IndustryPage } from "@/types/industry";
 export const lawFirmData: IndustryPage = {
   slug: "law-firm",
   industry: "Law Firms",
-  metaTitle: "Law Firm Advertising Agency | Legal Marketing Services",
+  metaTitle: "Law Firm Advertising Agency | Legal Ads",
   metaDescription:
-    "Expert law firm advertising for personal injury, criminal defense, family law, and business litigation attorneys. Google Ads, Facebook, lead gen. Get your free legal ad audit.",
+    "Expert law firm advertising for personal injury, criminal defense, family law & business litigation. Google Ads, Facebook & lead gen. Free legal ad audit.",
   breadcrumbs: [{ label: "Industries", href: "/industries" }, { label: "Law Firms", href: "/industries/law-firm" }],
   heroHeadline: "Law Firm Advertising Agency That Fills Your Docket with Qualified Cases",
   heroSubheadline:

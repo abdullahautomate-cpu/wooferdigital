@@ -5,7 +5,7 @@ export const phoenixData: LocationPage = {
   state: "AZ",
   stateFullName: "Arizona",
   metroPopulation: "5.0 million",
-  metaTitle: "Media Buying Agency Phoenix | Digital Advertising Agency AZ",
+  metaTitle: "Media Buying Agency Phoenix | PPC",
   metaDescription: "Expert media buying and digital advertising agency in Phoenix, AZ. Google Ads, Meta Ads, programmatic for Phoenix-area businesses. Free Phoenix ad audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Phoenix", href: "/locations/phoenix" }],
   heroHeadline: "Phoenix Media Buying Agency for Growing Arizona Brands",

@@ -5,7 +5,7 @@ export const houstonData: LocationPage = {
   state: "TX",
   stateFullName: "Texas",
   metroPopulation: "7.3 million",
-  metaTitle: "Media Buying Agency Houston | Digital Advertising Agency TX",
+  metaTitle: "Media Buying Agency Houston | PPC",
   metaDescription: "Top-rated media buying and digital advertising agency in Houston, TX. Google Ads, Meta, programmatic for Houston businesses. Free Houston ad audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Houston", href: "/locations/houston" }],
   heroHeadline: "Houston Media Buying & Performance Advertising Agency",

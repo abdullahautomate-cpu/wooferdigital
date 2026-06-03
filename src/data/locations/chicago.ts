@@ -5,7 +5,7 @@ export const chicagoData: LocationPage = {
   state: "IL",
   stateFullName: "Illinois",
   metroPopulation: "9.5 million",
-  metaTitle: "Media Buying Agency Chicago | Digital Advertising Agency IL",
+  metaTitle: "Media Buying Agency Chicago | PPC",
   metaDescription: "Leading media buying and digital advertising agency in Chicago. Google Ads, Meta Ads, programmatic, CTV for Chicago-area brands. Free Chicago ad audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Chicago", href: "/locations/chicago" }],
   heroHeadline: "Chicago's Performance Media Buying & Digital Advertising Agency",

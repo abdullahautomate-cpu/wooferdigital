@@ -9,7 +9,7 @@ import Button from "@/components/ui/Button";
 export const metadata: Metadata = buildMetadata({
   title: "About Us | Premium Media Buying Agency",
   description:
-    "Learn about Woofer Digital — a U.S.-based media buying and performance marketing agency founded in 2018. Meet our team, our values, and our approach to paid advertising.",
+    "Woofer Digital is a U.S. media buying & performance marketing agency founded in 2018. Meet our team, our values & our data-driven approach to paid advertising.",
   path: "/about",
 });
 

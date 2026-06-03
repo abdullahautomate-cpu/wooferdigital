@@ -5,7 +5,7 @@ export const seattleData: LocationPage = {
   state: "WA",
   stateFullName: "Washington",
   metroPopulation: "4.0 million",
-  metaTitle: "Media Buying Agency Seattle | Digital Advertising Agency WA",
+  metaTitle: "Media Buying Agency Seattle | PPC",
   metaDescription: "Expert media buying and digital advertising agency in Seattle. Google Ads, Meta Ads, programmatic for Seattle-area tech and business. Free Seattle ad audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Seattle", href: "/locations/seattle" }],
   heroHeadline: "Seattle Media Buying Agency for Tech, Healthcare & Consumer Brands",

@@ -4,9 +4,9 @@ import GoogleAdsCalculator from "@/components/tools/GoogleAdsCalculator";
 import Link from "next/link";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Free Google Ads ROI Calculator 2025 | Estimate Your Returns",
+  title: "Free Google Ads ROI Calculator 2025",
   description:
-    "Calculate your Google Ads ROI instantly. Enter your monthly budget, industry, customer value, and close rate to see estimated clicks, leads, revenue, and return on ad spend. Free tool from Woofer Digital.",
+    "Calculate your Google Ads ROI instantly. Enter budget, industry & customer value to see estimated clicks, leads, revenue & return on ad spend. Free tool.",
   path: "/tools/google-ads-roi-calculator",
 });
 

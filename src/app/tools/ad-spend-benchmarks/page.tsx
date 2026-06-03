@@ -3,9 +3,9 @@ import { buildMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Google Ads Benchmarks by Industry 2025 | CPC, CPL, CTR & ROAS Data",
+  title: "Google Ads Benchmarks 2025 | Industry Data",
   description:
-    "Comprehensive 2025 Google Ads benchmarks: average CPC, cost per lead, click-through rate, and ROAS for 20+ industries. Use these ad spend benchmarks to evaluate your campaign performance.",
+    "2025 Google Ads benchmarks: average CPC, cost per lead, CTR & ROAS for 20+ industries. Use these ad spend benchmarks to evaluate your campaign performance.",
   path: "/tools/ad-spend-benchmarks",
 });
 
