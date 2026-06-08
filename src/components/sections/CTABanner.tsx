@@ -1,4 +1,5 @@
 import Button from "@/components/ui/Button";
+import BookingCalendar from "@/components/forms/BookingCalendar";
 import { PHONE } from "@/lib/constants";
 
 interface CTABannerProps {
@@ -37,6 +38,11 @@ export default function CTABanner({
           {headline}
         </h2>
         <p className="text-lg text-white/80 mb-10 max-w-2xl mx-auto">{subheadline}</p>
+
+        {/* Booking Calendar */}
+        <div className="bg-white rounded-2xl overflow-hidden shadow-2xl mb-8">
+          <BookingCalendar />
+        </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button href={primaryHref} variant="white" size="lg">

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Button from "@/components/ui/Button";
 import GradientText from "@/components/ui/GradientText";
+import BookingCalendar from "@/components/forms/BookingCalendar";
 import StatsBar from "./StatsBar";
 import TrustLogos from "./TrustLogos";
 
@@ -32,13 +33,18 @@ export default function Hero() {
             </p>
 
             {/* CTAs */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
               <Button href="/contact" variant="primary" size="lg">
                 Get Your Free Media Audit
               </Button>
               <Button href="/case-studies" variant="ghost" size="lg">
                 View Our Results →
               </Button>
+            </div>
+
+            {/* Booking Calendar */}
+            <div className="bg-white rounded-2xl overflow-hidden shadow-2xl mb-10 text-left">
+              <BookingCalendar />
             </div>
 
             {/* Social proof micro-stats */}
