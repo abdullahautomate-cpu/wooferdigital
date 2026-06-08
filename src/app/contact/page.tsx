@@ -45,13 +45,16 @@ export default function ContactPage() {
         <div className="container-xl">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {/* Form */}
-            <div className="lg:col-span-2 bg-white rounded-2xl p-8 shadow-card">
-              <h2 className="text-2xl font-display font-bold text-navy mb-2">
-                Request Your Free Media Audit
-              </h2>
-              <p className="text-gray-500 mb-8">
-                Tell us about your business and advertising goals. We&apos;ll analyze your current strategy and show you exactly where we can drive improvement.
-              </p>
+            <div className="lg:col-span-2 bg-white rounded-2xl shadow-card">
+              <div className="p-6 sm:p-8 pb-2">
+                <h2 className="text-2xl font-display font-bold text-navy mb-2">
+                  Request Your Free Media Audit
+                </h2>
+                <p className="text-gray-500">
+                  Pick a time that works for you — speak directly with a senior strategist.
+                </p>
+              </div>
+              {/* Calendar goes edge-to-edge inside the card so it has maximum width */}
               <ContactForm />
             </div>
 

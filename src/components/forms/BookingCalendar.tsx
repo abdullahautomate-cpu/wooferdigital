@@ -10,10 +10,10 @@ export default function BookingCalendar({ className = "" }: BookingCalendarProps
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
   useEffect(() => {
-    // Set responsive initial height immediately (mobile needs more vertical space)
+    // Set responsive initial height (mobile needs more vertical space)
     if (iframeRef.current) {
       iframeRef.current.style.height =
-        window.innerWidth < 768 ? "900px" : "750px";
+        window.innerWidth < 768 ? "1050px" : "850px";
     }
 
     // Inject GHL script directly — faster than next/script scheduler
@@ -48,9 +48,9 @@ export default function BookingCalendar({ className = "" }: BookingCalendarProps
     const onResize = () => {
       if (!iframeRef.current) return;
       const current = parseInt(iframeRef.current.style.height, 10);
-      const fallback = window.innerWidth < 768 ? 900 : 750;
-      // Only apply fallback if we haven't received a real height yet
-      if (!current || current === 900 || current === 750) {
+      const fallback = window.innerWidth < 768 ? 1050 : 850;
+      // Only apply fallback if we haven't received a real height from postMessage yet
+      if (!current || current === 1050 || current === 850) {
         iframeRef.current.style.height = `${fallback}px`;
       }
     };
@@ -68,7 +68,7 @@ export default function BookingCalendar({ className = "" }: BookingCalendarProps
       <iframe
         ref={iframeRef}
         src="https://link.wooferdigital.com/widget/booking/onSat9IsDhByR6UNT9GR"
-        style={{ width: "100%", height: "750px", border: "none", display: "block" }}
+        style={{ width: "100%", height: "850px", border: "none", display: "block" }}
         scrolling="no"
         id="onSat9IsDhByR6UNT9GR_1780925489176"
         title="Book a Free Strategy Call"

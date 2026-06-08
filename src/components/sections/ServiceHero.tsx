@@ -28,8 +28,12 @@ export default function ServiceHero({
   showForm = true,
 }: ServiceHeroProps) {
   return (
-    <section className="bg-navy bg-gradient-hero dot-pattern relative overflow-hidden pt-4 pb-16 lg:pb-20">
-      <div className="absolute top-10 left-1/3 w-80 h-80 bg-electric/10 rounded-full blur-3xl pointer-events-none" />
+    /* overflow-hidden removed — was clipping the calendar.
+       Decorative orb moved into its own isolated clipping wrapper. */
+    <section className="bg-navy bg-gradient-hero dot-pattern relative pt-4 pb-16 lg:pb-20">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-10 left-1/3 w-80 h-80 bg-electric/10 rounded-full blur-3xl" />
+      </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
@@ -51,49 +55,46 @@ export default function ServiceHero({
           </nav>
         )}
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start mt-4">
-          {/* Left: Content */}
-          <div>
-            {badge && (
-              <div className="inline-flex items-center gap-2 bg-electric/15 border border-electric/25 text-electric-light text-sm font-medium px-4 py-1.5 rounded-full mb-6">
-                <span className="w-1.5 h-1.5 bg-electric-light rounded-full" />
-                {badge}
-              </div>
-            )}
-
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold text-white leading-tight mb-6">
-              {headline}
-            </h1>
-            <p className="text-lg text-white/70 mb-8 leading-relaxed">{subheadline}</p>
-
-            <div className="flex flex-wrap gap-4">
-              <Button href={ctaHref} variant="primary" size="lg">
-                {ctaText}
-              </Button>
-              <Button href="/case-studies" variant="ghost" size="lg">
-                See Our Results
-              </Button>
-            </div>
-
-            {/* Trust micro-proof */}
-            <div className="flex flex-wrap gap-5 mt-8 text-sm text-white/50">
-              {[
-                "✓ No long-term contracts",
-                "✓ Dedicated account manager",
-                "✓ Results in 30 days or less",
-              ].map((item) => (
-                <span key={item}>{item}</span>
-              ))}
-            </div>
-          </div>
-
-          {/* Right: Form */}
-          {showForm && (
-            <div className="lg:sticky lg:top-24">
-              <LeadCaptureForm dark />
+        {/* Headline content — full width, stacked above calendar */}
+        <div className="max-w-2xl mt-4 mb-10">
+          {badge && (
+            <div className="inline-flex items-center gap-2 bg-electric/15 border border-electric/25 text-electric-light text-sm font-medium px-4 py-1.5 rounded-full mb-6">
+              <span className="w-1.5 h-1.5 bg-electric-light rounded-full" />
+              {badge}
             </div>
           )}
+
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold text-white leading-tight mb-6">
+            {headline}
+          </h1>
+          <p className="text-lg text-white/70 mb-8 leading-relaxed">{subheadline}</p>
+
+          <div className="flex flex-wrap gap-4">
+            <Button href={ctaHref} variant="primary" size="lg">
+              {ctaText}
+            </Button>
+            <Button href="/case-studies" variant="ghost" size="lg">
+              See Our Results
+            </Button>
+          </div>
+
+          <div className="flex flex-wrap gap-5 mt-8 text-sm text-white/50">
+            {[
+              "✓ No long-term contracts",
+              "✓ Dedicated account manager",
+              "✓ Results in 30 days or less",
+            ].map((item) => (
+              <span key={item}>{item}</span>
+            ))}
+          </div>
         </div>
+
+        {/* Calendar — full container width, no sticky, not clipped */}
+        {showForm && (
+          <div className="w-full">
+            <LeadCaptureForm dark />
+          </div>
+        )}
       </div>
     </section>
   );
