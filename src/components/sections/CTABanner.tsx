@@ -40,7 +40,7 @@ export default function CTABanner({
         <p className="text-lg text-white/80 mb-10 max-w-2xl mx-auto">{subheadline}</p>
 
         {/* Booking Calendar */}
-        <div className="bg-white rounded-2xl overflow-hidden shadow-2xl mb-8">
+        <div className="bg-white rounded-2xl shadow-2xl mb-8">
           <BookingCalendar />
         </div>
 

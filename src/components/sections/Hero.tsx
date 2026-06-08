@@ -43,7 +43,7 @@ export default function Hero() {
             </div>
 
             {/* Booking Calendar */}
-            <div className="bg-white rounded-2xl overflow-hidden shadow-2xl mb-10 text-left">
+            <div className="bg-white rounded-2xl shadow-2xl mb-10 text-left">
               <BookingCalendar />
             </div>
 
