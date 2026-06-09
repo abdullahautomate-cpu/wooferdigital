@@ -39,19 +39,16 @@ export default function Header() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-18">
-            {/* Logo */}
-            <Link href="/" className="flex items-center gap-2.5 shrink-0">
+            {/* Logo — white pill so full-color logo is readable on dark nav */}
+            <Link href="/" className="shrink-0 bg-white rounded-xl px-3 py-1.5">
               <Image
-                src="/images/woofer-icon.png"
-                alt=""
-                width={36}
-                height={36}
-                className="h-9 w-auto"
+                src="/images/woofer-logo.png"
+                alt="Woofer Digital"
+                width={160}
+                height={52}
+                className="h-11 w-auto"
                 priority
               />
-              <span className="text-white font-display font-bold text-lg tracking-tight leading-none">
-                Woofer<span className="text-electric-light">Digital</span>
-              </span>
             </Link>
 
             {/* Desktop Nav */}

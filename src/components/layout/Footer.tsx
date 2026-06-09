@@ -26,17 +26,14 @@ export default function Footer() {
         <div className="py-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10">
           {/* Brand column */}
           <div className="col-span-2 lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2.5 mb-5">
+            <Link href="/" className="inline-flex mb-5 bg-white rounded-xl px-3 py-2">
               <Image
-                src="/images/woofer-icon.png"
-                alt=""
-                width={36}
-                height={36}
-                className="h-9 w-auto"
+                src="/images/woofer-logo.png"
+                alt="Woofer Digital"
+                width={160}
+                height={52}
+                className="h-11 w-auto"
               />
-              <span className="text-white font-display font-bold text-lg">
-                Woofer<span className="text-electric-light">Digital</span>
-              </span>
             </Link>
             <p className="text-white/50 text-sm leading-relaxed mb-5">
               Premium media buying & performance marketing agency serving U.S. brands since 2018.
