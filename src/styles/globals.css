@@ -92,6 +92,19 @@
   }
 }
 
+/* Booking calendar iframe — responsive initial height.
+   GHL's iframeResizer script overrides this with the exact content height
+   once it initialises, so this is only the pre-load fallback. */
+.ghl-booking-iframe {
+  height: 900px;
+  transition: height 0.15s ease;
+}
+@media (max-width: 767px) {
+  .ghl-booking-iframe {
+    height: 1100px;
+  }
+}
+
 /* Mesh gradient animation for hero */
 @keyframes meshGradient {
   0% { background-position: 0% 50%; }
