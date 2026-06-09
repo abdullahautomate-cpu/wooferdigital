@@ -32,7 +32,7 @@ export default function Footer() {
                 alt="Woofer Digital"
                 width={160}
                 height={52}
-                className="h-11 w-auto"
+                className="w-[160px] h-auto"
               />
             </Link>
             <p className="text-white/50 text-sm leading-relaxed mb-5">
