@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { PHONE, ADDRESS, SOCIAL_LINKS, SITE_NAME } from "@/lib/constants";
 import { NAV_SERVICES, NAV_INDUSTRIES } from "@/lib/constants";
 
@@ -25,12 +26,14 @@ export default function Footer() {
         <div className="py-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10">
           {/* Brand column */}
           <div className="col-span-2 lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-5">
-              <div className="w-8 h-8 bg-electric rounded-lg flex items-center justify-center">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M3 3h4v4H3zM9 3h4v4H9zM3 9h4v4H3zM9 9h4v4H9z" fill="white" fillOpacity="0.9"/>
-                </svg>
-              </div>
+            <Link href="/" className="flex items-center gap-2.5 mb-5">
+              <Image
+                src="/images/woofer-icon.png"
+                alt=""
+                width={36}
+                height={36}
+                className="h-9 w-auto"
+              />
               <span className="text-white font-display font-bold text-lg">
                 Woofer<span className="text-electric-light">Digital</span>
               </span>
@@ -149,11 +152,12 @@ export default function Footer() {
           <p className="text-xs text-white/30">
             © {year} {SITE_NAME}. All rights reserved.
           </p>
-          <div className="flex items-center gap-5 text-xs text-white/30">
+          <div className="flex flex-wrap items-center gap-5 text-xs text-white/30">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
-            <span className="text-white/20">|</span>
-            <span>🏆 Award-Winning Agency</span>
+            <Link href="/refund-policy" className="hover:text-white transition-colors">Refund Policy</Link>
+            <span className="text-white/20 hidden sm:inline">|</span>
+            <span className="hidden sm:inline">🏆 Award-Winning Agency</span>
           </div>
         </div>
       </div>

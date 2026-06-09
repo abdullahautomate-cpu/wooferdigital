@@ -86,6 +86,10 @@
   .prose-navy strong {
     @apply text-navy font-semibold;
   }
+
+  .prose-navy a {
+    @apply text-electric underline hover:text-navy transition-colors;
+  }
 }
 
 /* Mesh gradient animation for hero */

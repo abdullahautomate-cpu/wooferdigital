@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, Phone } from "lucide-react";
 import Button from "@/components/ui/Button";
 import MegaMenu from "./MegaMenu";
@@ -39,13 +40,16 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-18">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2 shrink-0">
-              <div className="w-8 h-8 bg-electric rounded-lg flex items-center justify-center">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M3 3h4v4H3zM9 3h4v4H9zM3 9h4v4H3zM9 9h4v4H9z" fill="white" fillOpacity="0.9"/>
-                </svg>
-              </div>
-              <span className="text-white font-display font-bold text-lg tracking-tight">
+            <Link href="/" className="flex items-center gap-2.5 shrink-0">
+              <Image
+                src="/images/woofer-icon.png"
+                alt=""
+                width={36}
+                height={36}
+                className="h-9 w-auto"
+                priority
+              />
+              <span className="text-white font-display font-bold text-lg tracking-tight leading-none">
                 Woofer<span className="text-electric-light">Digital</span>
               </span>
             </Link>
