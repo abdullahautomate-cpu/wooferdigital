@@ -3,9 +3,9 @@ import type { ServicePage } from "@/types/service";
 export const programmaticAdvertisingData: ServicePage = {
   slug: "programmatic-advertising",
   title: "Programmatic Advertising Agency",
-  metaTitle: "Programmatic Advertising | DSP Agency",
+  metaTitle: "Programmatic Advertising Agency | DSP & RTB Buying",
   metaDescription:
-    "Expert programmatic advertising through premium DSPs. Real-time bidding, data-driven audience targeting & full-funnel display campaigns. Free audit.",
+    "Programmatic media buying via The Trade Desk, DV360 & Amazon DSP. Precision targeting, brand-safe inventory, real-time bidding. Free programmatic audit.",
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "Programmatic Advertising", href: "/services/programmatic-advertising" }],
   heroHeadline: "Programmatic Advertising That Reaches Your Exact Audience at Scale",
   heroSubheadline:

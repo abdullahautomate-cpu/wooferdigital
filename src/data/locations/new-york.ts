@@ -6,9 +6,9 @@ export const newYorkData: LocationPage = {
   state: "NY",
   stateFullName: "New York",
   metroPopulation: "19.7 million",
-  metaTitle: "Media Buying Agency New York | PPC",
+  metaTitle: "Media Buying Agency New York, NY | Google Ads & PPC",
   metaDescription:
-    "Top-rated media buying & digital advertising in New York City. Google Ads, Meta, programmatic & CTV for NYC brands. Free NYC ad audit.",
+    "New York's performance marketing experts. Google Ads, Meta, programmatic & CTV for NYC brands. $500M+ in ad spend managed. Free New York ad audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "New York", href: "/locations/new-york" }],
   heroHeadline: "New York's Premier Media Buying & Performance Marketing Agency",
   heroSubheadline:

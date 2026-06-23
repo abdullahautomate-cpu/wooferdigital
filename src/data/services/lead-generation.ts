@@ -3,9 +3,9 @@ import type { ServicePage } from "@/types/service";
 export const leadGenerationData: ServicePage = {
   slug: "lead-generation",
   title: "Lead Generation Advertising Services",
-  metaTitle: "B2B Lead Generation Services Agency",
+  metaTitle: "Lead Generation Agency | B2B & B2C | Free Audit",
   metaDescription:
-    "B2B lead generation services: appointment setting, cold email outreach, IT lead gen & Google Ads. Hire a lead generation specialist. Free audit.",
+    "Performance-driven lead generation for B2B and B2C brands. Google Ads, Meta Ads & programmatic. Average 43% CPL reduction. Free lead gen audit.",
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "Lead Generation", href: "/services/lead-generation" }],
   heroHeadline: "Lead Generation Advertising That Delivers Quality Leads at Scale",
   heroSubheadline:

@@ -3,9 +3,9 @@ import type { ServicePage } from "@/types/service";
 export const mediaBuyingData: ServicePage = {
   slug: "media-buying",
   title: "Media Buying Services",
-  metaTitle: "Media Buying Agency | Media Planning",
+  metaTitle: "Media Buying Agency | $500M+ Ad Spend Managed",
   metaDescription:
-    "Full-service media buying agency managing paid media across Google, Meta, TikTok & programmatic. Expert media planning, buying & optimization for U.S. brands. Free audit.",
+    "U.S. media buying agency managing $500M+ across Google, Meta, TikTok & programmatic. Average 340% ROAS improvement. Get your free media audit today.",
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "Media Buying", href: "/services/media-buying" }],
   heroHeadline: "Media Buying Services That Maximize Every Dollar of Your Ad Spend",
   heroSubheadline:

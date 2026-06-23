@@ -33,6 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/services/reputation-management",
     "/services/ai-seo",
     "/services/marketing-automation",
+    "/services/ppc-management",
   ].map((path) => ({
     url: `${SITE_URL}${path}`,
     lastModified: now,
@@ -75,6 +76,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/locations/san-antonio",
     "/locations/san-diego",
     "/locations/washington-dc",
+    "/locations/islamabad",
+    "/locations/rawalpindi",
   ].map((path) => ({
     url: `${SITE_URL}${path}`,
     lastModified: now,

@@ -6,9 +6,9 @@ export const losAngelesData: LocationPage = {
   state: "CA",
   stateFullName: "California",
   metroPopulation: "13.2 million",
-  metaTitle: "Media Buying Agency Los Angeles | PPC",
+  metaTitle: "Media Buying Agency Los Angeles, CA | Google Ads & PPC",
   metaDescription:
-    "Top-rated media buying & digital advertising in Los Angeles. Google Ads, Meta, TikTok, programmatic & CTV for LA brands. Free LA audit.",
+    "LA's performance marketing experts. Google Ads, Meta & TikTok for entertainment, DTC & ecommerce brands. Average 340% ROAS improvement. Free LA audit.",
   breadcrumbs: [{ label: "Locations", href: "/locations" }, { label: "Los Angeles", href: "/locations/los-angeles" }],
   heroHeadline: "Los Angeles Media Buying Agency for Brands Ready to Scale",
   heroSubheadline: "Performance advertising for LA-area brands across Google, Meta, TikTok, programmatic, and CTV — with deep Los Angeles market knowledge.",

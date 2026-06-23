@@ -3,9 +3,9 @@ import type { ServicePage } from "@/types/service";
 export const connectedTvData: ServicePage = {
   slug: "connected-tv",
   title: "Connected TV (CTV) Advertising Agency",
-  metaTitle: "Connected TV Advertising Agency | CTV",
+  metaTitle: "CTV Advertising Agency | Connected TV & OTT Ads",
   metaDescription:
-    "Reach cord-cutters on Hulu, Roku, Peacock & 40+ streaming platforms. Expert CTV & OTT advertising with precise audience targeting. Free CTV audit.",
+    "Connected TV advertising on Hulu, Roku, Peacock & Amazon. 100% video completion rates, precise audience targeting, measurable reach. Free CTV session.",
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "Connected TV", href: "/services/connected-tv" }],
   heroHeadline: "Connected TV Advertising That Reaches Cord-Cutters with Precision",
   heroSubheadline:

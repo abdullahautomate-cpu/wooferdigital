@@ -27,6 +27,8 @@ import { philadelphiaData } from "@/data/locations/philadelphia";
 import { sanAntonioData } from "@/data/locations/san-antonio";
 import { sanDiegoData } from "@/data/locations/san-diego";
 import { washingtonDcData } from "@/data/locations/washington-dc";
+import { islamabadData } from "@/data/locations/islamabad";
+import { rawalpindiData } from "@/data/locations/rawalpindi";
 
 const LOCATIONS: Record<string, LocationPage> = {
   "new-york": newYorkData,
@@ -45,6 +47,8 @@ const LOCATIONS: Record<string, LocationPage> = {
   "san-antonio": sanAntonioData,
   "san-diego": sanDiegoData,
   "washington-dc": washingtonDcData,
+  islamabad: islamabadData,
+  rawalpindi: rawalpindiData,
 };
 
 interface Props {

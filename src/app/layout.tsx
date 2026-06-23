@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Woofer Digital is a U.S.-based media buying and performance marketing agency. Google Ads, Meta Ads, TikTok, Programmatic, CTV — delivering measurable ROI for growing brands.",
-  keywords: ["media buying agency", "performance marketing agency", "google ads management", "facebook ads agency", "digital advertising agency"],
+    "U.S. media buying & performance marketing agency. Google Ads, Meta Ads, TikTok & programmatic. $500M+ managed, 340% avg ROAS. Measurable ROI for growing brands.",
+  keywords: ["media buying agency", "performance marketing agency", "google ads management", "facebook ads agency", "digital advertising agency", "ppc management agency", "paid media agency", "media buying agency Pakistan", "google ads agency Pakistan"],
   authors: [{ name: SITE_NAME }],
   creator: SITE_NAME,
   openGraph: {

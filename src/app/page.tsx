@@ -9,9 +9,9 @@ import IndustryGrid from "@/components/sections/IndustryGrid";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Media Buying Agency | Performance Marketing",
+  title: "Media Buying Agency | $500M+ Ad Spend Managed",
   description:
-    "Premier U.S. media buying agency managing $2B+ in ad spend across Google, Meta, TikTok & Programmatic. Google Ads, reputation management & AI SEO. Get your free audit.",
+    "U.S. media buying & performance marketing agency. Google Ads, Meta, TikTok & programmatic. $500M+ managed, 340% avg ROAS improvement. Get your free audit.",
   path: "/",
 });
 

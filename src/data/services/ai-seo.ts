@@ -3,9 +3,9 @@ import type { ServicePage } from "@/types/service";
 export const aiSeoData: ServicePage = {
   slug: "ai-seo",
   title: "AI SEO Services",
-  metaTitle: "AI SEO Agency | AI SEO Optimization",
+  metaTitle: "AI SEO Services | AI-Powered SEO Agency",
   metaDescription:
-    "Leading AI SEO agency using AI-powered SEO agents & AI SEO optimization to rank your site faster. AI SEO strategy, technical audits & content. Free audit.",
+    "AI-driven SEO for Google's Search Generative Experience and LLM-era discovery. Technical SEO, content optimization & AI visibility. Proven rankings. Free audit.",
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "AI SEO", href: "/services/ai-seo" }],
   heroHeadline: "AI SEO Agency — AI-Powered SEO Optimization That Dominates Search Rankings",
   heroSubheadline:

@@ -3,9 +3,9 @@ import type { ServicePage } from "@/types/service";
 export const facebookInstagramAdsData: ServicePage = {
   slug: "facebook-instagram-ads",
   title: "Facebook & Instagram Ads Agency",
-  metaTitle: "Facebook & Instagram Ads Agency USA",
+  metaTitle: "Facebook & Instagram Ads Agency | Meta Advertising",
   metaDescription:
-    "Expert Facebook & Instagram ads management by certified Meta specialists. Full-funnel campaigns for lead gen, ecommerce & brand growth. Free audit.",
+    "Expert Meta advertising agency. Facebook Ads, Instagram Ads & Reels managed for growth brands. Average 3.2x ROAS. Certified Meta specialists. Free audit.",
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "Facebook & Instagram Ads", href: "/services/facebook-instagram-ads" }],
   heroHeadline: "Facebook & Instagram Ads That Drive Real Business Results",
   heroSubheadline:

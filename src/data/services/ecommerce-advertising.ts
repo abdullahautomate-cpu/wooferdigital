@@ -3,9 +3,9 @@ import type { ServicePage } from "@/types/service";
 export const ecommerceAdvertisingData: ServicePage = {
   slug: "ecommerce-advertising",
   title: "Ecommerce Advertising Agency",
-  metaTitle: "Ecommerce Advertising Agency | DTC",
+  metaTitle: "Ecommerce Advertising Agency | Shopify & DTC Ads",
   metaDescription:
-    "Expert ecommerce advertising for Shopify, WooCommerce, and DTC brands. Google Shopping, Meta Ads, TikTok, and more — engineered for maximum ROAS. Free audit.",
+    "Ecommerce media buying for Shopify, WooCommerce & DTC brands. Google Shopping, Meta & TikTok. Average 5–12x ROAS. Proven DTC growth. Free ecommerce audit.",
   breadcrumbs: [{ label: "Services", href: "/services" }, { label: "Ecommerce Advertising", href: "/services/ecommerce-advertising" }],
   heroHeadline: "Ecommerce Advertising Agency That Scales Revenue, Not Just Traffic",
   heroSubheadline:
