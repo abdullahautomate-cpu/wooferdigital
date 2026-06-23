@@ -88,6 +88,7 @@ export const rawalpindiData: LocationPage = {
     addressLocality: "Rawalpindi",
     addressRegion: "PB",
     postalCode: "46000",
+    addressCountry: "PK",
     telephone: "[PHONE]",
     areaServed: ["Rawalpindi", "Islamabad", "Punjab", "Pakistan"],
     latitude: 33.5651,

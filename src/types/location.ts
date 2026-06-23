@@ -4,6 +4,7 @@ export interface LocalBusinessSchemaData {
   addressLocality: string;
   addressRegion: string;
   postalCode?: string;
+  addressCountry?: string;
   telephone: string;
   areaServed: string[];
   latitude?: number;

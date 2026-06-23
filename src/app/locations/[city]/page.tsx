@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { buildMetadata } from "@/lib/seo";
-import { buildLocalBusinessSchema, buildBreadcrumbSchema } from "@/lib/schema";
+import { buildLocalBusinessSchema, buildBreadcrumbSchema, buildFAQSchema } from "@/lib/schema";
 import SchemaOrg from "@/components/seo/SchemaOrg";
 import ServiceHero from "@/components/sections/ServiceHero";
 import StatsBar from "@/components/sections/StatsBar";
@@ -29,6 +29,14 @@ import { sanDiegoData } from "@/data/locations/san-diego";
 import { washingtonDcData } from "@/data/locations/washington-dc";
 import { islamabadData } from "@/data/locations/islamabad";
 import { rawalpindiData } from "@/data/locations/rawalpindi";
+import { lasVegasData } from "@/data/locations/las-vegas";
+import { nashvilleData } from "@/data/locations/nashville";
+import { charlotteData } from "@/data/locations/charlotte";
+import { portlandData } from "@/data/locations/portland";
+import { minneapolisData } from "@/data/locations/minneapolis";
+import { tampaData } from "@/data/locations/tampa";
+import { sacramentoData } from "@/data/locations/sacramento";
+import { indianapolisData } from "@/data/locations/indianapolis";
 
 const LOCATIONS: Record<string, LocationPage> = {
   "new-york": newYorkData,
@@ -49,6 +57,14 @@ const LOCATIONS: Record<string, LocationPage> = {
   "washington-dc": washingtonDcData,
   islamabad: islamabadData,
   rawalpindi: rawalpindiData,
+  "las-vegas": lasVegasData,
+  nashville: nashvilleData,
+  charlotte: charlotteData,
+  portland: portlandData,
+  minneapolis: minneapolisData,
+  tampa: tampaData,
+  sacramento: sacramentoData,
+  indianapolis: indianapolisData,
 };
 
 interface Props {
@@ -76,6 +92,7 @@ export default function LocationPage({ params }: Props) {
   const schemas = [
     buildLocalBusinessSchema(data),
     buildBreadcrumbSchema(data.breadcrumbs),
+    ...(data.faqs.length > 0 ? [buildFAQSchema(data.faqs)] : []),
   ];
 
   return (

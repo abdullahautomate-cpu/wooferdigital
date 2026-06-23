@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
-import LeadCaptureForm from "@/components/forms/LeadCaptureForm";
 import Button from "@/components/ui/Button";
 
 interface Breadcrumb {
@@ -15,7 +14,6 @@ interface ServiceHeroProps {
   ctaHref?: string;
   breadcrumbs?: Breadcrumb[];
   badge?: string;
-  showForm?: boolean;
 }
 
 export default function ServiceHero({
@@ -25,12 +23,9 @@ export default function ServiceHero({
   ctaHref = "/contact",
   breadcrumbs = [],
   badge,
-  showForm = true,
 }: ServiceHeroProps) {
   return (
-    /* overflow-hidden removed — was clipping the calendar.
-       Decorative orb moved into its own isolated clipping wrapper. */
-    <section className="bg-navy bg-gradient-hero dot-pattern relative pt-4 pb-16 lg:pb-20">
+    <section className="bg-navy bg-gradient-hero dot-pattern relative overflow-hidden pt-4 pb-16 lg:pb-20">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-10 left-1/3 w-80 h-80 bg-electric/10 rounded-full blur-3xl" />
       </div>
@@ -55,8 +50,7 @@ export default function ServiceHero({
           </nav>
         )}
 
-        {/* Headline content — full width, stacked above calendar */}
-        <div className="max-w-2xl mt-4 mb-10">
+        <div className="max-w-3xl mt-4 mb-10">
           {badge && (
             <div className="inline-flex items-center gap-2 bg-electric/15 border border-electric/25 text-electric-light text-sm font-medium px-4 py-1.5 rounded-full mb-6">
               <span className="w-1.5 h-1.5 bg-electric-light rounded-full" />
@@ -88,13 +82,6 @@ export default function ServiceHero({
             ))}
           </div>
         </div>
-
-        {/* Calendar — full container width, no sticky, not clipped */}
-        {showForm && (
-          <div className="w-full">
-            <LeadCaptureForm dark />
-          </div>
-        )}
       </div>
     </section>
   );

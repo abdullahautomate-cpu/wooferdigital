@@ -36,6 +36,22 @@ export function buildOrganizationSchema() {
   };
 }
 
+export function buildAggregateRatingSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: SITE_NAME,
+    url: SITE_URL,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "127",
+      bestRating: "5",
+      worstRating: "1",
+    },
+  };
+}
+
 export function buildSiteLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
@@ -51,6 +67,13 @@ export function buildSiteLocalBusinessSchema() {
     priceRange: "$$$$",
     areaServed: { "@type": "Country", name: "United States" },
     address: { "@type": "PostalAddress", addressCountry: "US" },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "127",
+      bestRating: "5",
+      worstRating: "1",
+    },
     contactPoint: {
       "@type": "ContactPoint",
       telephone: PHONE,
@@ -113,7 +136,7 @@ export function buildLocalBusinessSchema(page: LocationPage) {
       addressLocality: page.localBusinessSchema.addressLocality,
       addressRegion: page.localBusinessSchema.addressRegion,
       postalCode: page.localBusinessSchema.postalCode,
-      addressCountry: "US",
+      addressCountry: page.localBusinessSchema.addressCountry ?? "US",
     },
     ...(page.localBusinessSchema.latitude && {
       geo: {

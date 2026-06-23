@@ -7,6 +7,8 @@ import CaseStudyTeaser from "@/components/sections/CaseStudyTeaser";
 import CTABanner from "@/components/sections/CTABanner";
 import IndustryGrid from "@/components/sections/IndustryGrid";
 import { buildMetadata } from "@/lib/seo";
+import { buildOrganizationSchema, buildSiteLocalBusinessSchema, buildAggregateRatingSchema } from "@/lib/schema";
+import SchemaOrg from "@/components/seo/SchemaOrg";
 
 export const metadata: Metadata = buildMetadata({
   title: "Media Buying Agency | $500M+ Ad Spend Managed",
@@ -16,8 +18,14 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function HomePage() {
+  const schemas = [
+    buildOrganizationSchema(),
+    buildSiteLocalBusinessSchema(),
+    buildAggregateRatingSchema(),
+  ];
   return (
     <>
+      <SchemaOrg schema={schemas} />
       <Hero />
       <ServicesGrid />
       <ProcessSteps />

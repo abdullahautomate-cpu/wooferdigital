@@ -7,7 +7,7 @@ import TestimonialGrid from "@/components/sections/TestimonialGrid";
 import Button from "@/components/ui/Button";
 
 export const metadata: Metadata = buildMetadata({
-  title: "About Us | Premium Media Buying Agency",
+  title: "About Woofer Digital | U.S. Media Buying Agency | Founded 2018",
   description:
     "Woofer Digital is a U.S. media buying & performance marketing agency founded in 2018. Meet our team, our values & our data-driven approach to paid advertising.",
   path: "/about",
