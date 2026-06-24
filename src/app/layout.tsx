@@ -58,6 +58,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${dmSans.variable}`}>
       <head>
+        <link rel="preconnect" href="https://link.wooferdigital.com" />
+        <link rel="dns-prefetch" href="https://link.wooferdigital.com" />
         <SchemaOrg schema={schemas} />
         <script
           src="https://analytics.ahrefs.com/analytics.js"
