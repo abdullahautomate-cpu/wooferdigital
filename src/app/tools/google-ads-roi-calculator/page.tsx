@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
 import GoogleAdsCalculator from "@/components/tools/GoogleAdsCalculator";
 import Link from "next/link";
+import VSLSection from "@/components/sections/VSLSection";
 
 export const metadata: Metadata = buildMetadata({
   title: "Free Google Ads ROI Calculator 2025",
@@ -54,6 +55,7 @@ export default function GoogleAdsROICalculatorPage() {
           </p>
         </div>
       </section>
+      <VSLSection variant="white" />
 
       {/* Calculator */}
       <section className="bg-light-gray py-16 px-4">

@@ -11,6 +11,7 @@ import Button from "@/components/ui/Button";
 import BlogGrid from "@/components/sections/BlogGrid";
 import { formatDate } from "@/lib/utils";
 import { Clock, Calendar } from "lucide-react";
+import VSLSection from "@/components/sections/VSLSection";
 
 interface Props {
   params: { slug: string };
@@ -80,6 +81,7 @@ export default function BlogPostPage({ params }: Props) {
           </div>
         </div>
       </section>
+      <VSLSection />
 
       {/* Article */}
       <section className="py-12 bg-white">

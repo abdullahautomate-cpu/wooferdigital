@@ -6,6 +6,7 @@ import { getAllCategories } from "@/data/blog/categories";
 import BlogGrid from "@/components/sections/BlogGrid";
 import CTABanner from "@/components/sections/CTABanner";
 import GradientText from "@/components/ui/GradientText";
+import VSLSection from "@/components/sections/VSLSection";
 
 export const metadata: Metadata = buildMetadata({
   title: "Media Buying & Digital Advertising Blog",
@@ -30,6 +31,7 @@ export default function BlogPage() {
           </p>
         </div>
       </section>
+      <VSLSection variant="white" />
 
       <section className="section-padding bg-light-gray">
         <div className="container-xl">

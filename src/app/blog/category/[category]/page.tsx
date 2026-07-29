@@ -6,6 +6,7 @@ import { getPostsByCategory } from "@/data/blog/posts";
 import BlogGrid from "@/components/sections/BlogGrid";
 import Link from "next/link";
 import GradientText from "@/components/ui/GradientText";
+import VSLSection from "@/components/sections/VSLSection";
 
 interface Props {
   params: { category: string };
@@ -42,6 +43,7 @@ export default function BlogCategoryPage({ params }: Props) {
           <p className="text-white/70">{cat.description}</p>
         </div>
       </section>
+      <VSLSection variant="white" />
       <section className="section-padding bg-light-gray">
         <div className="container-xl">
           <div className="flex items-center justify-between mb-8">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
 import Link from "next/link";
+import VSLSection from "@/components/sections/VSLSection";
 
 export const metadata: Metadata = buildMetadata({
   title: "Free Digital Marketing Tools | Calculators",
@@ -57,6 +58,7 @@ export default function ToolsPage() {
           </p>
         </div>
       </section>
+      <VSLSection variant="white" />
 
       {/* Tools grid */}
       <section className="bg-light-gray py-16 px-4">

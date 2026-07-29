@@ -60,6 +60,8 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://link.wooferdigital.com" />
         <link rel="dns-prefetch" href="https://link.wooferdigital.com" />
+        {/* VSL thumbnail host — the YouTube iframe itself is only warmed on intent */}
+        <link rel="preconnect" href="https://i.ytimg.com" />
         <SchemaOrg schema={schemas} />
         <script
           src="https://analytics.ahrefs.com/analytics.js"

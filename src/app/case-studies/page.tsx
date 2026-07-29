@@ -6,6 +6,7 @@ import GradientText from "@/components/ui/GradientText";
 import CTABanner from "@/components/sections/CTABanner";
 import Badge from "@/components/ui/Badge";
 import { ArrowRight } from "lucide-react";
+import VSLSection from "@/components/sections/VSLSection";
 
 export const metadata: Metadata = buildMetadata({
   title: "Client Case Studies | Advertising Results",
@@ -29,6 +30,7 @@ export default function CaseStudiesPage() {
           </p>
         </div>
       </section>
+      <VSLSection variant="white" />
 
       <section className="section-padding bg-light-gray">
         <div className="container-xl">

@@ -12,6 +12,7 @@ import TestimonialGrid from "@/components/sections/TestimonialGrid";
 import CaseStudyTeaser from "@/components/sections/CaseStudyTeaser";
 import FAQAccordion from "@/components/sections/FAQAccordion";
 import RelatedLinks from "@/components/sections/RelatedLinks";
+import VSLSection from "@/components/sections/VSLSection";
 
 const data = aiSeoData;
 
@@ -27,6 +28,7 @@ export default function ServicePage() {
     <>
       <SchemaOrg schema={schemas} />
       <ServiceHero headline={data.heroHeadline} subheadline={data.heroSubheadline} ctaText={data.heroCTAText} ctaHref={data.heroCTAHref} breadcrumbs={data.breadcrumbs} badge={data.badge} />
+      <VSLSection />
       <StatsBar />
       <ServiceContentBody intro={data.introText} sections={data.contentSections} />
       <ProcessSteps />

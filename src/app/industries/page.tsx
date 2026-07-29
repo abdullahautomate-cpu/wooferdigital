@@ -3,6 +3,7 @@ import { buildMetadata } from "@/lib/seo";
 import IndustryGrid from "@/components/sections/IndustryGrid";
 import CTABanner from "@/components/sections/CTABanner";
 import GradientText from "@/components/ui/GradientText";
+import VSLSection from "@/components/sections/VSLSection";
 
 export const metadata: Metadata = buildMetadata({
   title: "Industries We Serve | Paid Media Agency",
@@ -24,6 +25,7 @@ export default function IndustriesPage() {
           </p>
         </div>
       </section>
+      <VSLSection />
       <IndustryGrid />
       <CTABanner />
     </>

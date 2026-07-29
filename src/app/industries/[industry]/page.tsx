@@ -22,6 +22,7 @@ import { financialServicesData } from "@/data/industries/financial-services";
 import { homeServicesData } from "@/data/industries/home-services";
 import { automotiveData } from "@/data/industries/automotive";
 import { educationData } from "@/data/industries/education";
+import VSLSection from "@/components/sections/VSLSection";
 
 const INDUSTRIES: Record<string, IndustryPage> = {
   healthcare: healthcareData,
@@ -69,6 +70,7 @@ export default function IndustryPage({ params }: Props) {
         ctaText={data.heroCTAText}
         breadcrumbs={data.breadcrumbs}
       />
+      <VSLSection />
 
       {/* Challenges & Solutions */}
       <section className="section-padding bg-white">

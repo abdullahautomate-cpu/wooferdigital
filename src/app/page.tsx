@@ -9,6 +9,7 @@ import IndustryGrid from "@/components/sections/IndustryGrid";
 import { buildMetadata } from "@/lib/seo";
 import { buildOrganizationSchema, buildSiteLocalBusinessSchema, buildAggregateRatingSchema } from "@/lib/schema";
 import SchemaOrg from "@/components/seo/SchemaOrg";
+import VSLSection from "@/components/sections/VSLSection";
 
 export const metadata: Metadata = buildMetadata({
   title: "Media Buying Agency | $500M+ Ad Spend Managed",
@@ -27,6 +28,7 @@ export default function HomePage() {
     <>
       <SchemaOrg schema={schemas} />
       <Hero />
+      <VSLSection variant="white" />
       <ServicesGrid />
       <ProcessSteps />
       <CTABanner

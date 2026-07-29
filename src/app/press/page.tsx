@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
 import Link from "next/link";
+import VSLSection from "@/components/sections/VSLSection";
 
 export const metadata: Metadata = buildMetadata({
   title: "Press Releases & News | Woofer Digital",
@@ -50,6 +51,7 @@ export default function PressPage() {
           </p>
         </div>
       </section>
+      <VSLSection />
 
       {/* Press release */}
       <section className="bg-white py-16 px-4">

@@ -9,6 +9,7 @@ import Button from "@/components/ui/Button";
 import Badge from "@/components/ui/Badge";
 import AnimatedCounter from "@/components/ui/AnimatedCounter";
 import { Star } from "lucide-react";
+import VSLSection from "@/components/sections/VSLSection";
 
 interface Props {
   params: { slug: string };
@@ -64,6 +65,7 @@ export default function CaseStudyPage({ params }: Props) {
           </div>
         </div>
       </section>
+      <VSLSection />
 
       {/* Key Results */}
       <section className="bg-white py-12 border-b border-gray-100">

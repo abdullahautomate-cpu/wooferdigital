@@ -3,6 +3,7 @@ import { buildMetadata } from "@/lib/seo";
 import LocationGrid from "@/components/sections/LocationGrid";
 import CTABanner from "@/components/sections/CTABanner";
 import GradientText from "@/components/ui/GradientText";
+import VSLSection from "@/components/sections/VSLSection";
 
 export const metadata: Metadata = buildMetadata({
   title: "Locations | Digital Marketing Agency USA",
@@ -24,6 +25,7 @@ export default function LocationsPage() {
           </p>
         </div>
       </section>
+      <VSLSection variant="white" />
       <LocationGrid />
       <CTABanner />
     </>

@@ -3,6 +3,7 @@ import { buildMetadata } from "@/lib/seo";
 import ServicesGrid from "@/components/sections/ServicesGrid";
 import CTABanner from "@/components/sections/CTABanner";
 import GradientText from "@/components/ui/GradientText";
+import VSLSection from "@/components/sections/VSLSection";
 
 export const metadata: Metadata = buildMetadata({
   title: "Media Buying & Digital Advertising Services",
@@ -24,6 +25,7 @@ export default function ServicesPage() {
           </p>
         </div>
       </section>
+      <VSLSection variant="white" />
       <ServicesGrid />
       <CTABanner />
     </>

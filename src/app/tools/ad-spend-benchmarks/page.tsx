@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
 import Link from "next/link";
+import VSLSection from "@/components/sections/VSLSection";
 
 export const metadata: Metadata = buildMetadata({
   title: "Google Ads Benchmarks 2025 | Industry Data",
@@ -62,6 +63,7 @@ export default function AdSpendBenchmarksPage() {
           </p>
         </div>
       </section>
+      <VSLSection />
 
       {/* Quick stats */}
       <section className="bg-white border-b border-gray-100 py-10 px-4">

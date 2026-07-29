@@ -37,6 +37,7 @@ import { minneapolisData } from "@/data/locations/minneapolis";
 import { tampaData } from "@/data/locations/tampa";
 import { sacramentoData } from "@/data/locations/sacramento";
 import { indianapolisData } from "@/data/locations/indianapolis";
+import VSLSection from "@/components/sections/VSLSection";
 
 const LOCATIONS: Record<string, LocationPage> = {
   "new-york": newYorkData,
@@ -105,6 +106,7 @@ export default function LocationPage({ params }: Props) {
         breadcrumbs={data.breadcrumbs}
         badge={`${data.city}, ${data.state} Market Specialists`}
       />
+      <VSLSection />
 
       {/* Local Market Insights */}
       <section className="py-12 bg-white">

@@ -5,6 +5,7 @@ import CTABanner from "@/components/sections/CTABanner";
 import StatsBar from "@/components/sections/StatsBar";
 import TestimonialGrid from "@/components/sections/TestimonialGrid";
 import Button from "@/components/ui/Button";
+import VSLSection from "@/components/sections/VSLSection";
 
 export const metadata: Metadata = buildMetadata({
   title: "About Woofer Digital | U.S. Media Buying Agency | Founded 2018",
@@ -50,6 +51,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      <VSLSection />
 
       <StatsBar />
 

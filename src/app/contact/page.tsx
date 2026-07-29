@@ -3,6 +3,7 @@ import { buildMetadata } from "@/lib/seo";
 import ContactForm from "@/components/forms/ContactForm";
 import GradientText from "@/components/ui/GradientText";
 import { PHONE, EMAIL, ADDRESS } from "@/lib/constants";
+import VSLSection from "@/components/sections/VSLSection";
 
 export const metadata: Metadata = buildMetadata({
   title: "Contact Us | Free Media Buying Audit",
@@ -39,6 +40,7 @@ export default function ContactPage() {
           </p>
         </div>
       </section>
+      <VSLSection variant="white" showCTA={false} />
 
       {/* Form + Info */}
       <section className="section-padding bg-light-gray">

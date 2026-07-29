@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
 import { SITE_NAME, PHONE, EMAIL } from "@/lib/constants";
+import VSLSection from "@/components/sections/VSLSection";
 
 export const metadata: Metadata = buildMetadata({
   title: "Refund Policy",
@@ -20,6 +21,7 @@ export default function RefundPolicyPage() {
           <p className="text-white/60 text-lg">Last updated: June 2026</p>
         </div>
       </section>
+      <VSLSection />
 
       {/* Content */}
       <section className="section-padding">
