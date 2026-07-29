@@ -68,6 +68,10 @@ const config: Config = {
       maxWidth: {
         "8xl": "88rem",
       },
+      // Header row height — h-18 is not in Tailwind's default scale.
+      spacing: {
+        18: "4.5rem",
+      },
     },
   },
   plugins: [],

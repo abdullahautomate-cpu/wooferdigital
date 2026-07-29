@@ -30,8 +30,8 @@ export default function Footer() {
               <Image
                 src="/images/woofer-logo.png"
                 alt="Woofer Digital"
-                width={160}
-                height={52}
+                width={641}
+                height={195}
                 className="w-[160px] h-auto"
               />
             </Link>
