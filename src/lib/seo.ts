@@ -29,7 +29,7 @@ export function buildMetadata({
   const finalOgDescription = ogDescription || description;
 
   return {
-    title: `${title} | ${SITE_NAME}`,
+    title: { absolute: `${title} | ${SITE_NAME}` },
     description,
     metadataBase: new URL(SITE_URL),
     alternates: {

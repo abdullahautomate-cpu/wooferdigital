@@ -21,7 +21,7 @@ const CASE_STUDIES: CaseStudy[] = [
     testimonialAuthor: "Sarah Mitchell",
     testimonialTitle: "VP of Marketing, MedBridge Health",
     servicesUsed: ["google-ads", "lead-generation"],
-    metaTitle: "MedBridge Health Case Study | 52% CPL Reduction | Woofer Digital",
+    metaTitle: "MedBridge Health Case Study | 52% CPL Reduction",
     metaDescription:
       "See how Woofer Digital reduced cost-per-lead by 52% and tripled lead volume for a multi-location urgent care network using strategic Google Ads management.",
     fullBody: `
@@ -55,7 +55,7 @@ const CASE_STUDIES: CaseStudy[] = [
     testimonialAuthor: "James Kowalski",
     testimonialTitle: "CEO, Apex Fitness Gear",
     servicesUsed: ["facebook-instagram-ads", "ecommerce-advertising"],
-    metaTitle: "Apex Fitness Gear Case Study | 6.2x Meta ROAS | Woofer Digital",
+    metaTitle: "Apex Fitness Gear Case Study | 6.2x Meta ROAS",
     metaDescription:
       "How Woofer Digital grew Apex Fitness Gear's Meta ROAS from 1.8x to 6.2x and increased paid social revenue by 244% in 5 months.",
     fullBody: `
@@ -89,7 +89,7 @@ const CASE_STUDIES: CaseStudy[] = [
     testimonialAuthor: "Rebecca Tran",
     testimonialTitle: "Director of Growth, Nexus SaaS",
     servicesUsed: ["programmatic-advertising", "lead-generation"],
-    metaTitle: "Nexus SaaS Case Study | 68% Lead Quality Improvement | Woofer Digital",
+    metaTitle: "Nexus SaaS Case Study | 68% Lead Quality Improvement",
     metaDescription:
       "How Woofer Digital's programmatic strategy improved lead quality by 68% and drove $2.4M in pipeline for a B2B SaaS company.",
     fullBody: `
@@ -123,7 +123,7 @@ const CASE_STUDIES: CaseStudy[] = [
     testimonialAuthor: "Daniel Reyes",
     testimonialTitle: "Managing Partner, Reyes & Associates Law",
     servicesUsed: ["google-ads", "lead-generation"],
-    metaTitle: "Reyes Law Firm Case Study | 64% CPL Reduction | Woofer Digital",
+    metaTitle: "Reyes Law Firm Case Study | 64% CPL Reduction",
     metaDescription:
       "How Woofer Digital reduced cost-per-lead by 64% and quadrupled signed cases for a personal injury law firm using strategic Google Ads management.",
     fullBody: `
@@ -157,7 +157,7 @@ const CASE_STUDIES: CaseStudy[] = [
     testimonialAuthor: "Tyler Brooks",
     testimonialTitle: "Founder, LifeStyle Apparel Co.",
     servicesUsed: ["tiktok-advertising", "ecommerce-advertising"],
-    metaTitle: "LifeStyle Apparel TikTok Case Study | $800K Launch Month | Woofer Digital",
+    metaTitle: "LifeStyle Apparel TikTok Case Study | $800K Launch Month",
     metaDescription:
       "How Woofer Digital's TikTok advertising strategy drove $800K in revenue in a single month at a 4.5x ROAS for a DTC apparel brand.",
     fullBody: `
@@ -191,7 +191,7 @@ const CASE_STUDIES: CaseStudy[] = [
     testimonialAuthor: "Chloe Nguyen",
     testimonialTitle: "Co-Founder, Luxe Beauty Studio",
     servicesUsed: ["google-ads", "facebook-instagram-ads", "ecommerce-advertising"],
-    metaTitle: "Luxe Beauty Studio Case Study | $200K to $1.8M Revenue | Woofer Digital",
+    metaTitle: "Luxe Beauty Studio Case Study | $200K to $1.8M Revenue",
     metaDescription:
       "How Woofer Digital helped a Shopify beauty brand scale from $200K to $1.8M in annual revenue using Google Shopping, Meta Ads, and ecommerce strategy.",
     fullBody: `

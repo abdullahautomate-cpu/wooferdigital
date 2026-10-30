@@ -4,7 +4,7 @@ import Link from "next/link";
 import VSLSection from "@/components/sections/VSLSection";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Press Releases & News | Woofer Digital",
+  title: "Press Releases & News",
   description:
     "Latest press releases and news from Woofer Digital — a leading U.S. digital marketing agency specializing in Google Ads, reputation management, AI SEO, and marketing automation.",
   path: "/press",
