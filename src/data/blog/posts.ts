@@ -866,6 +866,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "TikTok Advertising for Businesses: How to Build Campaigns That Attract the Right Audience",
     excerpt: "Learn how TikTok advertising helps businesses reach relevant audiences, create engaging video ads, choose the right campaign objective, and measure performance against real business outcomes.",
     publishDate: "2026-10-30",
+    updatedDate: "2026-11-05",
     author: "Woofer Digital Team",
     category: "social-advertising",
     tags: ["tiktok advertising services", "tiktok ads management", "tiktok advertising agency", "tiktok marketing for businesses", "tiktok paid ads", "tiktok video advertising", "social media advertising services", "tiktok campaign optimization", "paid social media strategy"],
@@ -891,6 +892,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Creative testing:</strong> Advertisers can compare different hooks, demonstrations, messages, and calls to action to understand what resonates with their audience.</p>
 <p><strong>Lead generation and sales:</strong> Depending on eligibility and campaign setup, advertising can encourage people to visit a website, submit an inquiry, or complete a purchase.</p>
 <p>TikTok is not necessarily the right platform for every business. Its value depends on the target audience, creative resources, offer, and ability to measure meaningful outcomes.</p>
+<p>Businesses considering TikTok alongside other channels can review Woofer Digital's <a href="/services/media-buying/">media buying services</a> to understand how cross-channel planning can support a coordinated paid advertising strategy.</p>
 <h2>Understanding Your Target Audience Before Launching Ads</h2>
 <p>An effective TikTok campaign begins with a clear understanding of the people the business wants to reach.</p>
 <p>Consider their needs, interests, challenges, and reasons for considering the product or service. The goal is to create an advertisement that feels relevant to the audience rather than producing content simply because the platform is popular.</p>
@@ -960,23 +962,24 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Businesses should also evaluate lead quality, customer acquisition costs, and profitability. A campaign that produces inexpensive leads may still be disappointing if those leads rarely become customers.</p>
 <p>Where possible, connect advertising data with website analytics, CRM records, and sales information to understand the full customer journey.</p>
 <h2>Common TikTok Advertising Mistakes</h2>
-<h3>Treating TikTok like a traditional display advertisement</h3>
+<h3>Treating TikTok Like a Traditional Display Advertisement</h3>
 <p>A highly polished promotional video is not automatically ineffective, but an advertisement that feels disconnected from the platform's content environment may struggle to hold attention. Focus on clear storytelling and useful demonstrations rather than relying on production quality alone.</p>
-<h3>Targeting everyone without a clear strategy</h3>
+<h3>Targeting Everyone Without a Clear Strategy</h3>
 <p>Broad targeting may have a role in some campaigns, but businesses should still understand whom they want to serve and how they will evaluate the resulting traffic.</p>
-<h3>Focusing on views instead of business outcomes</h3>
+<h3>Focusing on Views Instead of Business Outcomes</h3>
 <p>Video views can be useful for awareness campaigns. They are not a substitute for measuring leads, purchases, or other meaningful conversions when those are the objectives.</p>
-<h3>Using the same creative for too long</h3>
+<h3>Using the Same Creative for Too Long</h3>
 <p>Audience response can change, and repeated exposure may reduce the effectiveness of an advertisement. Monitor creative performance and test fresh approaches when the data indicates a need.</p>
-<h3>Sending visitors to a weak landing page</h3>
+<h3>Sending Visitors to a Weak Landing Page</h3>
 <p>An engaging video cannot compensate for a confusing website, unclear offer, or difficult checkout process. Ensure the destination page supports the promise made by the ad.</p>
-<h3>Ignoring tracking and attribution</h3>
+<h3>Ignoring Tracking and Attribution</h3>
 <p>Incorrect or incomplete conversion tracking makes it difficult to assess performance. Check that important actions are measured accurately and interpret platform-attributed results in the context of other business data.</p>
 <h2>When Should You Hire a TikTok Advertising Agency?</h2>
 <p>Managing TikTok campaigns requires a combination of audience research, creative planning, campaign setup, budget management, and performance analysis.</p>
 <p>Professional support may be useful when a business struggles to develop effective video concepts, generate qualified leads, understand campaign results, or coordinate TikTok with its other advertising channels.</p>
 <p>Before choosing an agency, ask how it develops creative concepts, tests advertisements, tracks conversions, evaluates lead quality, and reports on results. A clear process is more valuable than unsupported promises of guaranteed views or sales.</p>
-<p>Woofer Digital provides paid advertising services across digital channels. If TikTok advertising is part of your growth strategy, explore our <a href="/services/tiktok-advertising/">TikTok advertising services</a> or our full range of <a href="/services/">digital advertising services</a> to learn more about our approach and confirm the most suitable service for your business.</p>
+<p>Woofer Digital offers <a href="/services/tiktok-advertising/">TikTok advertising services</a> that businesses can explore when evaluating paid social campaigns. Businesses can also review its <a href="/services/facebook-instagram-ads/">Facebook and Instagram advertising services</a> to understand how other paid social channels may complement a TikTok strategy.</p>
+<p>For businesses seeking additional perspectives on advertising and customer acquisition, <a href="https://growthguild.us/">Growth Guild's website</a> offers information about its growth-related solutions. Its <a href="https://growthguild.us/services/">services page</a> covers areas such as media buying, lead generation, and marketing automation.</p>
 <h2>Frequently Asked Questions</h2>
 <h3>Is TikTok advertising suitable for small businesses?</h3>
 <p>It can be suitable for small businesses that have a clear audience, a relevant offer, and the resources to develop and test suitable creative. Start with a realistic budget and measure results against a specific business objective.</p>
@@ -991,14 +994,18 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>Final Thought</h2>
 <p>TikTok advertising gives businesses another way to introduce their products and services through engaging video content. However, reaching an audience is only one part of the process. The creative must communicate a relevant message, the offer must meet a genuine need, and the campaign must be measured against meaningful business outcomes.</p>
 <p>Businesses that combine audience understanding, consistent creative testing, a clear landing page, and reliable conversion tracking can make better-informed advertising decisions.</p>
-<p>If your business wants to explore TikTok advertising as part of its digital growth strategy, Woofer Digital can help you evaluate suitable paid media opportunities and determine how they fit your wider marketing objectives. <a href="/contact/">Get in touch with our team</a> to start the conversation.</p>`,
+<p>If your business wants to explore TikTok advertising as part of its digital growth strategy, visit Woofer Digital's <a href="/services/tiktok-advertising/">TikTok advertising services</a> to learn more about campaign strategy and determine how paid social advertising could fit into your wider marketing objectives.</p>`,
     relatedPostSlugs: ["tiktok-advertising-guide-2025", "facebook-ads-cost-guide-2025", "ecommerce-advertising-strategy-2025"],
     relatedServiceSlugs: ["tiktok-advertising", "facebook-instagram-ads", "ecommerce-advertising"],
   },
 ];
 
+const POSTS_NEWEST_FIRST = [...BLOG_POSTS].sort((a, b) =>
+  b.publishDate.localeCompare(a.publishDate)
+);
+
 export function getAllPosts(): BlogPost[] {
-  return BLOG_POSTS;
+  return POSTS_NEWEST_FIRST;
 }
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
@@ -1006,11 +1013,11 @@ export function getPostBySlug(slug: string): BlogPost | undefined {
 }
 
 export function getPostsByCategory(category: string): BlogPost[] {
-  return BLOG_POSTS.filter((p) => p.category === category);
+  return POSTS_NEWEST_FIRST.filter((p) => p.category === category);
 }
 
 export function getRelatedPosts(post: BlogPost, limit = 3): BlogPost[] {
-  return BLOG_POSTS.filter(
+  return POSTS_NEWEST_FIRST.filter(
     (p) => p.slug !== post.slug && p.relatedPostSlugs.includes(post.slug)
   ).slice(0, limit);
 }
